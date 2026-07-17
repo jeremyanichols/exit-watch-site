@@ -130,7 +130,7 @@
         <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
         <span class="badge" data-tone="exit">exit</span>
         <span class="ledger-title num">+222K ETH inflow — queue reached 222K ETH</span>
-        <span class="badge" data-tone="muted">unattributed</span>
+        <span class="badge" data-tone="warn" title="Kraken ~69% of exiting cohort (~152,752 ETH est., 7662 validators, wc-direct, src: dune-spellbook labels)">probable: Kraken</span>
         <span class="ledger-z">z=4.8</span>
       </div>
       <div class="ledger-row">
@@ -247,7 +247,7 @@
       </div>
     </div>
     <p style="margin:10px 0 0;font-size:12px;color:var(--ink-3)">
-      Attribution labels: <strong>confirmed</strong> = on-chain operator mapping · <strong>probable</strong> = corroborated but not on-chain · <strong>unattributed</strong> = movement is real, the actor is not yet named. We publish the number without the name until the mapping is confirmed.
+      Attribution labels: <strong>confirmed</strong> = independently corroborated · <strong>probable</strong> = on-chain withdrawal-credential match to community-curated entity labels · <strong>unattributed</strong> = movement is real, the actor is not yet named. We publish the number without the name until the mapping justifies it. Hover a probable badge for the evidence.
     </p>
   </section>
 
@@ -261,8 +261,8 @@
       <div class="xcheck-cell">
         <div class="label" style="margin-bottom:6px">Entry queue</div>
         <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--positive)"></span>validatorqueue.com</span></span><span class="num">2,634,127 ETH</span></div>
-        <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--accent)"></span>beacon node (pending_deposits)</span></span><span class="num">2,599,923 ETH</span></div>
-        <div class="xcheck-line"><span class="src">agreement</span><span class="num">Δ 34K ETH · within tolerance</span></div>
+        <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--accent)"></span>beacon node (pending_deposits)</span></span><span class="num">2,598,859 ETH</span></div>
+        <div class="xcheck-line"><span class="src">agreement</span><span class="num">Δ 35K ETH · within tolerance</span></div>
       </div>
       <div class="xcheck-cell">
         <div class="label" style="margin-bottom:6px">Exit queue</div>
@@ -272,7 +272,7 @@
       </div>
     </div>
     <p style="margin:12px 0 0;font-size:12px;color:var(--ink-3)">
-      <span class="badge" data-tone="ok">sources agree</span> Last verified Fri, 17 Jul 2026 22:04 UTC. Small deviations are expected — the beacon snapshot is live while validatorqueue.com is a daily close.
+      <span class="badge" data-tone="ok">sources agree</span> Last verified Fri, 17 Jul 2026 22:26 UTC. Small deviations are expected — the beacon snapshot is live while validatorqueue.com is a daily close.
     </p></div>
   </section>
 
@@ -280,7 +280,8 @@
     <h2>Methodology</h2>
     <p><strong>Data.</strong> Daily queue history from <code>validatorqueue.com</code> (open dataset by etheralpha, 1,100+ days), cross-checked against a public Ethereum beacon node: entry queue vs the sum of <code>pending_deposits</code>, exit queue vs the effective balances of <code>active_exiting</code> validators. When the sources disagree materially (&gt;10% and &gt;50K ETH), the disagreement is flagged here and nothing new is published until they reconcile.</p>
     <p><strong>Surge detection.</strong> Queue <em>levels</em> are sticky, so we detect on daily <em>inflows</em>: a surge fires when a day's queue growth is ≥3 standard deviations above the trailing 30-day inflow baseline <em>and</em> clears an absolute floor (75K ETH for exits, 150K for entries) so flat regimes can't alarm on noise. Consecutive trigger days merge into one episode. Backtested against the known events of Sept 2025 and Feb–Jun 2026: all caught, fewer than five unmatched episodes per year.</p>
-    <p><strong>Attribution.</strong> Naming the entity behind a movement requires an on-chain validator-to-operator mapping. Until a mapping is confirmed, events stay <em>unattributed</em> — the number is published without the name, never the reverse.</p>
+    <p><strong>Attribution.</strong> Exiting validators are joined to entities via their on-chain withdrawal credentials, using the community-curated entity labels in Dune's public <code>spellbook</code> (hildobby's staking datasets). A label-based match is always published as <em>probable</em>, never <em>confirmed</em>; events with no dominant mapping stay <em>unattributed</em> — the number is published without the name, never the reverse.</p>
+    <p><strong>Consolidation caveat.</strong> Since Pectra (EIP-7251), a batch of exits can be validators <em>consolidating</em> into larger compounding validators — stake reorganizing, not leaving. Attributed exit surges may include consolidation churn; briefs call this out where the evidence allows.</p>
   </section>
 </main>
 <footer class="site-footer">
