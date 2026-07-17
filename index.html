@@ -19,10 +19,12 @@
   <div class="site-header-inner">
     <a class="brand" href="#"><span class="brand-dot"></span>exit watch</a>
     <nav class="site-nav">
-      <a href="#exit-chart">Queues</a>
+      <a href="#composition">Queue</a>
+      <a href="#exit-chart">Charts</a>
       <a href="#events">Surges</a>
       <a href="#sources">Sources</a>
       <a href="#methodology">Methodology</a>
+      <a href="feed.xml" title="RSS feed of detected surges">RSS</a>
     </nav>
     <div class="header-spacer"></div>
     <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">☾</button>
@@ -66,6 +68,22 @@
       <div class="stat-sub">consensus + execution</div>
     </div>
   </div>
+
+  
+  <section class="section" id="composition">
+    <div class="section-head">
+      <h2>Who's entering the queue</h2>
+      <span class="section-note">by on-chain withdrawal credentials · Jul 17, 2026</span>
+    </div>
+    <div class="card card-pad">
+      <div class="aum-bar"><div class="aum-seg" style="--seg:var(--net-indigo, #4f46e5);flex:27.7" title="Lido 27.7%"></div><div class="aum-seg" style="--seg:var(--net-teal, #0d9488);flex:14.8" title="Kraken 14.8%"></div><div class="aum-seg" style="--seg:var(--net-violet, #7c3aed);flex:3" title="Bitbank 3%"></div><div class="aum-seg aum-seg-tail" style="flex:54.5" title="unmapped 54.5%"></div></div>
+      <div class="aum-legend">
+        <span class="leg"><span class="leg-dot" style="--seg:var(--net-indigo, #4f46e5)"></span>Lido <span class="num">721K · 27.7%</span></span>
+        <span class="leg"><span class="leg-dot" style="--seg:var(--net-teal, #0d9488)"></span>Kraken <span class="num">384K · 14.8%</span></span>
+        <span class="leg"><span class="leg-dot" style="--seg:var(--net-violet, #7c3aed)"></span>Bitbank <span class="num">78K · 3%</span></span><span class="leg leg-rest"><span class="leg-dot" style="--seg:var(--chart-deemph)"></span>unmapped <span class="num">1.42M · 54.5%</span></span></div>
+      <p style="margin:12px 0 0;font-size:12px;color:var(--ink-3)">Entity labels from Dune spellbook's community-curated lists plus primary-source verified additions. Unmapped stake is real stake whose credentials match no public label — we don't guess.</p>
+    </div>
+  </section>
 
   
     <section class="section" id="exit-chart">
@@ -261,7 +279,7 @@
       <div class="xcheck-cell">
         <div class="label" style="margin-bottom:6px">Entry queue</div>
         <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--positive)"></span>validatorqueue.com</span></span><span class="num">2,634,127 ETH</span></div>
-        <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--accent)"></span>beacon node (pending_deposits)</span></span><span class="num">2,598,859 ETH</span></div>
+        <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--accent)"></span>beacon node (pending_deposits)</span></span><span class="num">2,599,065 ETH</span></div>
         <div class="xcheck-line"><span class="src">agreement</span><span class="num">Δ 35K ETH · within tolerance</span></div>
       </div>
       <div class="xcheck-cell">
@@ -272,7 +290,7 @@
       </div>
     </div>
     <p style="margin:12px 0 0;font-size:12px;color:var(--ink-3)">
-      <span class="badge" data-tone="ok">sources agree</span> Last verified Fri, 17 Jul 2026 22:27 UTC. Small deviations are expected — the beacon snapshot is live while validatorqueue.com is a daily close.
+      <span class="badge" data-tone="ok">sources agree</span> Last verified Fri, 17 Jul 2026 22:38 UTC. Small deviations are expected — the beacon snapshot is live while validatorqueue.com is a daily close.
     </p></div>
   </section>
 

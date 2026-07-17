@@ -539,6 +539,66 @@ main {
 .xcheck-line:last-child { border-bottom: none; }
 .xcheck-line .src { color: var(--ink-2); }
 
+/* ── Composition bar (stakesight aum-bar form) ───────────────────────── */
+
+:root {
+  --net-indigo: #4f46e5;
+  --net-teal: #0d9488;
+  --net-violet: #7c3aed;
+  --net-sky: #0369a1;
+  --net-magenta: #c026d3;
+  --net-amber: #b45309;
+}
+:root[data-theme="dark"] {
+  --net-indigo: #6d7cf5;
+  --net-teal: #0d9488;
+  --net-violet: #8b5cf6;
+  --net-sky: #0891b2;
+  --net-magenta: #d946ef;
+  --net-amber: #d97706;
+}
+
+.aum-bar {
+  display: flex;
+  gap: 1px;
+  height: 16px;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+}
+.aum-seg {
+  min-width: 2px;
+  border-radius: 1px;
+  background: var(--seg, var(--accent));
+  opacity: 0.9;
+}
+.aum-seg-tail {
+  background: var(--chart-deemph);
+  opacity: 0.7;
+}
+.aum-legend {
+  margin-top: var(--space-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px 14px;
+  font-size: 12px;
+  color: var(--ink-2);
+}
+.aum-legend .leg {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: default;
+}
+.aum-legend .leg .num { color: var(--ink-3); font-size: 11px; }
+.aum-legend .leg-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 2px;
+  background: var(--seg, var(--accent));
+  flex: none;
+}
+.aum-legend .leg-rest { color: var(--ink-3); }
+
 /* ── Data table ──────────────────────────────────────────────────────── */
 
 .table-wrap {
