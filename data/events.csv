@@ -13,7 +13,7 @@ entry_queue,2025-06-03,2025-06-03,6.4,163510,163510,281492,notable,unattributed,
 exit_queue,2025-07-19,2025-07-22,9,162336,382460,475708,notable,unattributed,
 entry_queue,2025-08-15,2025-08-15,8.3,218924,218924,324542,notable,unattributed,
 entry_queue,2025-08-25,2025-08-26,5.1,251875,474508,627133,notable,unattributed,
-exit_queue,2025-09-10,2025-09-11,16.9,1594271,2033134,2650032,extreme,probable,"Kiln ~36% of exiting cohort (~735,846 ETH est., 25847 validators, deposit-batch-contract, src: dune-spellbook labels)"
+exit_queue,2025-09-10,2025-09-11,16.9,1594271,2033134,2650032,extreme,probable,"Kiln ~42% of exiting cohort (~855,929 ETH est., 30065 validators, deposit-batch-contract, src: dune-spellbook labels)"
 entry_queue,2025-10-08,2025-10-09,13.6,892100,1195533,1377477,major,unattributed,
 exit_queue,2025-10-26,2025-10-26,3.1,290817,290817,2458219,notable,unattributed,
 exit_queue,2025-11-26,2025-11-26,3.2,75902,75902,1718363,notable,unattributed,
