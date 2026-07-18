@@ -76,15 +76,15 @@
       <span class="section-note">by on-chain withdrawal credentials · Jul 18, 2026</span>
     </div>
     <div class="card card-pad">
-      <div class="aum-bar"><div class="aum-seg" style="--seg:var(--net-indigo, #4f46e5);flex:27.9" title="Lido 27.9%"></div><div class="aum-seg" style="--seg:var(--net-teal, #0d9488);flex:15" title="Kraken 15%"></div><div class="aum-seg" style="--seg:var(--net-violet, #7c3aed);flex:3.5" title="OKX 3.5%"></div><div class="aum-seg" style="--seg:var(--net-sky, #0369a1);flex:3.1" title="Bitbank 3.1%"></div><div class="aum-seg" style="--seg:var(--net-magenta, #c026d3);flex:2.3" title="Upbit 2.3%"></div><div class="aum-seg" style="--seg:var(--net-amber, #b45309);flex:0.6" title="Revolut 0.6%"></div><div class="aum-seg aum-seg-tail" style="flex:47.5" title="unmapped 47.5%"></div></div>
+      <div class="aum-bar"><div class="aum-seg" style="--seg:var(--net-indigo, #4f46e5);flex:28" title="Lido 28%"></div><div class="aum-seg" style="--seg:var(--net-teal, #0d9488);flex:15" title="Kraken 15%"></div><div class="aum-seg" style="--seg:var(--net-violet, #7c3aed);flex:3.5" title="OKX 3.5%"></div><div class="aum-seg" style="--seg:var(--net-sky, #0369a1);flex:3.1" title="Bitbank 3.1%"></div><div class="aum-seg" style="--seg:var(--net-magenta, #c026d3);flex:2.3" title="Upbit 2.3%"></div><div class="aum-seg" style="--seg:var(--net-amber, #b45309);flex:0.6" title="Revolut 0.6%"></div><div class="aum-seg aum-seg-tail" style="flex:47.5" title="unmapped 47.5%"></div></div>
       <div class="aum-legend">
-        <span class="leg"><span class="leg-dot" style="--seg:var(--net-indigo, #4f46e5)"></span>Lido <span class="num">716K · 27.9%</span></span>
-        <span class="leg"><span class="leg-dot" style="--seg:var(--net-teal, #0d9488)"></span>Kraken <span class="num">384K · 15%</span></span>
+        <span class="leg"><span class="leg-dot" style="--seg:var(--net-indigo, #4f46e5)"></span>Lido <span class="num">716K · 28%</span></span>
+        <span class="leg"><span class="leg-dot" style="--seg:var(--net-teal, #0d9488)"></span>Kraken <span class="num">383K · 15%</span></span>
         <span class="leg"><span class="leg-dot" style="--seg:var(--net-violet, #7c3aed)"></span>OKX <span class="num">91K · 3.5%</span></span>
         <span class="leg"><span class="leg-dot" style="--seg:var(--net-sky, #0369a1)"></span>Bitbank <span class="num">78K · 3.1%</span></span>
         <span class="leg"><span class="leg-dot" style="--seg:var(--net-magenta, #c026d3)"></span>Upbit <span class="num">60K · 2.3%</span></span>
         <span class="leg"><span class="leg-dot" style="--seg:var(--net-amber, #b45309)"></span>Revolut <span class="num">16K · 0.6%</span></span><span class="leg leg-rest"><span class="leg-dot" style="--seg:var(--chart-deemph)"></span>unmapped <span class="num">1.22M · 47.5%</span></span></div>
-      <p style="margin:12px 0 0;font-size:12px;color:var(--ink-3)"><span class="num">96.4%</span> of the queue is new stake (signed deposits); <span class="num">3.6%</span> is protocol-internal flow (post-Pectra consolidation balance moves, which never touch the deposit contract).</p>
+      <p style="margin:12px 0 0;font-size:12px;color:var(--ink-3)"><span class="num">96.3%</span> of the queue is new stake (signed deposits); <span class="num">3.7%</span> is protocol-internal flow (post-Pectra consolidation balance moves, which never touch the deposit contract).</p>
       <p style="margin:8px 0 0;font-size:12px;color:var(--ink-3)">Entity labels from Dune spellbook's community-curated lists plus primary-source verified additions. Unmapped stake is real stake whose credentials match no public label — we don't guess.</p>
     </div>
   </section>
@@ -126,7 +126,7 @@
 
   <section class="section" id="events">
     <div class="section-head">
-      <h2>Detected surges — last 12 months</h2>
+      <h2>Detected surges — full history</h2>
       <span class="section-note">z ≥ 3 vs trailing 30-day inflows, with absolute ETH floors</span>
     </div>
     <div class="card ledger">
@@ -240,7 +240,7 @@
         <span class="ledger-dot" style="--sev:var(--negative)"></span>
         <span class="badge" data-tone="exit">exit</span>
         <span class="ledger-title num">+2.03M ETH inflow over 2 days — queue reached 2.65M ETH</span>
-        <span class="badge" data-tone="muted">unattributed</span>
+        <span class="badge" data-tone="warn" title="Kiln ~36% of exiting cohort (~735,846 ETH est., 25847 validators, deposit-batch-contract, src: dune-spellbook labels)">probable: Kiln</span>
         <span class="ledger-z">z=16.9</span>
       </div>
       <div class="ledger-row">
@@ -267,6 +267,94 @@
         <span class="badge" data-tone="muted">unattributed</span>
         <span class="ledger-z">z=9</span>
       </div>
+      <div class="ledger-row">
+        <span class="ledger-date">Jun 3, 2025</span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="entry">entry</span>
+        <span class="ledger-title num">+164K ETH inflow — queue reached 281K ETH</span>
+        <span class="badge" data-tone="muted">unattributed</span>
+        <span class="ledger-z">z=6.4</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2025-05-22-exit.html">May 22, 2025</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+86K ETH inflow — queue reached 89K ETH</span>
+        <span class="badge" data-tone="muted">unattributed</span>
+        <span class="ledger-z">z=17.1</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2025-04-14-exit.html">Apr 14, 2025</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+112K ETH inflow — queue reached 112K ETH</span>
+        <span class="badge" data-tone="warn" title="Kraken ~49% of exiting cohort (~54,129 ETH est., 4328 validators, wc-direct, src: dune-spellbook labels)">probable: Kraken</span>
+        <span class="ledger-z">z=4</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2025-04-01-exit.html">Apr 1, 2025</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+78K ETH inflow — queue reached 80K ETH</span>
+        <span class="badge" data-tone="muted">unattributed</span>
+        <span class="ledger-z">z=13.3</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2024-12-20-exit.html">Dec 20, 2024</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+145K ETH inflow — queue reached 145K ETH</span>
+        <span class="badge" data-tone="warn" title="Daniel Wang ~67% of exiting cohort (~96,685 ETH est., 5990 validators, deposit-sender, src: dune-spellbook labels)">probable: labeled individual</span>
+        <span class="ledger-z">z=5.3</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2024-05-17-exit.html">May 17, 2024</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+97K ETH inflow — queue reached 124K ETH</span>
+        <span class="badge" data-tone="warn" title="Lido ~40% of exiting cohort (~39,035 ETH est., 2467 validators, wc-embedded-depositor, src: dune-spellbook labels)">probable: Lido</span>
+        <span class="ledger-z">z=8.5</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2024-02-22-exit.html">Feb 22, 2024</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+103K ETH inflow — queue reached 109K ETH</span>
+        <span class="badge" data-tone="warn" title="arthapala.eth ~77% of exiting cohort (~79,270 ETH est., 4592 validators, wc-embedded-depositor, src: dune-spellbook labels)">probable: arthapala.eth</span>
+        <span class="ledger-z">z=5.3</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2024-01-05-exit.html">Jan 5, 2024</a></span>
+        <span class="ledger-dot" style="--sev:var(--warn)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+536K ETH inflow — queue reached 537K ETH</span>
+        <span class="badge" data-tone="warn" title="Figment ~51% of exiting cohort (~275,866 ETH est., 11136 validators, deposit-batch-contract, src: dune-spellbook labels)">probable: Figment</span>
+        <span class="ledger-z">z=25.8</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2023-12-05-exit.html">Dec 5, 2023</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+122K ETH inflow — queue reached 123K ETH</span>
+        <span class="badge" data-tone="warn" title="Coinbase ~57% of exiting cohort (~69,255 ETH est., 3453 validators, deposit-batch-contract, src: dune-spellbook labels)">probable: Coinbase</span>
+        <span class="ledger-z">z=5</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2023-11-24-exit.html">Nov 24, 2023</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+76K ETH inflow — queue reached 76K ETH</span>
+        <span class="badge" data-tone="warn" title="Lido ~53% of exiting cohort (~40,423 ETH est., 4381 validators, wc-embedded-depositor, src: dune-spellbook labels)">probable: Lido</span>
+        <span class="ledger-z">z=4.3</span>
+      </div>
+      <div class="ledger-row">
+        <span class="ledger-date"><a href="events/2023-06-13-exit.html">Jun 13, 2023</a></span>
+        <span class="ledger-dot" style="--sev:var(--ink-3)"></span>
+        <span class="badge" data-tone="exit">exit</span>
+        <span class="ledger-title num">+88K ETH inflow — queue reached 90K ETH</span>
+        <span class="badge" data-tone="muted">unattributed</span>
+        <span class="ledger-z">z=17.6</span>
+      </div>
     </div>
     <p style="margin:10px 0 0;font-size:12px;color:var(--ink-3)">
       Attribution labels: <strong>confirmed</strong> = independently corroborated · <strong>probable</strong> = on-chain withdrawal-credential match to community-curated entity labels · <strong>unattributed</strong> = movement is real, the actor is not yet named. We publish the number without the name until the mapping justifies it. Hover a probable badge for the evidence.
@@ -283,7 +371,7 @@
       <div class="xcheck-cell">
         <div class="label" style="margin-bottom:6px">Entry queue</div>
         <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--positive)"></span>validatorqueue.com</span></span><span class="num">2,590,840 ETH</span></div>
-        <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--accent)"></span>beacon node (pending_deposits)</span></span><span class="num">2,563,278 ETH</span></div>
+        <div class="xcheck-line"><span class="src"><span class="prov"><span class="prov-dot" style="--prov-color:var(--accent)"></span>beacon node (pending_deposits)</span></span><span class="num">2,562,455 ETH</span></div>
         <div class="xcheck-line"><span class="src">agreement</span><span class="num">Δ 28K ETH · within tolerance</span></div>
       </div>
       <div class="xcheck-cell">
@@ -294,7 +382,7 @@
       </div>
     </div>
     <p style="margin:12px 0 0;font-size:12px;color:var(--ink-3)">
-      <span class="badge" data-tone="ok">sources agree</span> Last verified Sat, 18 Jul 2026 16:26 UTC. Small deviations are expected — the beacon snapshot is live while validatorqueue.com is a daily close.
+      <span class="badge" data-tone="ok">sources agree</span> Last verified Sat, 18 Jul 2026 17:05 UTC. Small deviations are expected — the beacon snapshot is live while validatorqueue.com is a daily close.
     </p></div>
   </section>
 

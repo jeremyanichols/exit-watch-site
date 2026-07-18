@@ -3,7 +3,7 @@ exit_queue,2023-06-13,2023-06-13,17.6,88128,88128,89920,notable,unattributed,
 exit_queue,2023-11-24,2023-11-24,4.3,76288,76288,76288,notable,probable,"Lido ~53% of exiting cohort (~40,423 ETH est., 4381 validators, wc-embedded-depositor, src: dune-spellbook labels)"
 exit_queue,2023-12-05,2023-12-05,5,122464,122464,122528,notable,probable,"Coinbase ~57% of exiting cohort (~69,255 ETH est., 3453 validators, deposit-batch-contract, src: dune-spellbook labels)"
 exit_queue,2024-01-05,2024-01-05,25.8,535680,535680,536512,major,probable,"Figment ~51% of exiting cohort (~275,866 ETH est., 11136 validators, deposit-batch-contract, src: dune-spellbook labels)"
-exit_queue,2024-02-22,2024-02-22,5.3,102592,102592,108544,notable,probable,"arthapala.eth ~77% of exiting cohort (~78,718 ETH est., 4560 validators, wc-embedded-depositor, src: dune-spellbook labels)"
+exit_queue,2024-02-22,2024-02-22,5.3,102592,102592,108544,notable,probable,"arthapala.eth ~77% of exiting cohort (~79,270 ETH est., 4592 validators, wc-embedded-depositor, src: dune-spellbook labels)"
 exit_queue,2024-05-17,2024-05-17,8.5,97184,97184,123776,notable,probable,"Lido ~40% of exiting cohort (~39,035 ETH est., 2467 validators, wc-embedded-depositor, src: dune-spellbook labels)"
 exit_queue,2024-12-20,2024-12-20,5.3,144672,144672,144768,notable,probable,"Daniel Wang ~67% of exiting cohort (~96,685 ETH est., 5990 validators, deposit-sender, src: dune-spellbook labels)"
 exit_queue,2025-04-01,2025-04-01,13.3,77728,77728,80032,notable,unattributed,
@@ -13,7 +13,7 @@ entry_queue,2025-06-03,2025-06-03,6.4,163510,163510,281492,notable,unattributed,
 exit_queue,2025-07-19,2025-07-22,9,162336,382460,475708,notable,unattributed,
 entry_queue,2025-08-15,2025-08-15,8.3,218924,218924,324542,notable,unattributed,
 entry_queue,2025-08-25,2025-08-26,5.1,251875,474508,627133,notable,unattributed,
-exit_queue,2025-09-10,2025-09-11,16.9,1594271,2033134,2650032,extreme,unattributed,
+exit_queue,2025-09-10,2025-09-11,16.9,1594271,2033134,2650032,extreme,probable,"Kiln ~36% of exiting cohort (~735,846 ETH est., 25847 validators, deposit-batch-contract, src: dune-spellbook labels)"
 entry_queue,2025-10-08,2025-10-09,13.6,892100,1195533,1377477,major,unattributed,
 exit_queue,2025-10-26,2025-10-26,3.1,290817,290817,2458219,notable,unattributed,
 exit_queue,2025-11-26,2025-11-26,3.2,75902,75902,1718363,notable,unattributed,
