@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Call log — Exit Watch</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' rx='2' fill='%23c2410c'/></svg>">
+<script>(function(){if(localStorage.getItem('ew-theme')==='dark')document.documentElement.dataset.theme='dark';})();</script>
+</head>
+<body>
+<header class="site-header"><div class="site-header-inner">
+  <a class="brand" href="index.html"><span class="brand-dot"></span>exit watch</a>
+  <nav class="site-nav"><a href="index.html">Dashboard</a><a href="#corrections">Corrections</a></nav>
+  <div class="header-spacer"></div>
+  <button class="theme-toggle" onclick="var e=document.documentElement,n=e.dataset.theme==='dark'?'':'dark';n?e.dataset.theme=n:delete e.dataset.theme;localStorage.setItem('ew-theme',n||'light')">☾</button>
+</div></header>
+<main>
+  <div class="page-header">
+    <h1>Call log</h1>
+    <p class="page-meta">Every surge this system has detected, with the timestamp it was detected. Detections made after 2026-07-18 (when 15-minute live monitoring started) are labeled <em>live</em>; earlier events were found retrospectively by backtest and are labeled as such. This page and its history are in a public git repository — the timestamps can't be quietly rewritten.</p>
+  </div>
+  <div class="table-wrap"><table class="data">
+    <thead><tr><th class="r">Detected (UTC)</th><th>Mode</th><th>Event</th><th class="r">Size</th><th class="r">Signal</th><th>Attribution</th><th class="r">Detection lag</th></tr></thead>
+    <tbody>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2026-06-27</td>
+        <td class="r">+171K<span class="unit">ETH</span></td>
+        <td class="r">z=6.7</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">21d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2026-06-20-exit.html">Exit surge 2026-06-20</a></td>
+        <td class="r">+345K<span class="unit">ETH</span></td>
+        <td class="r">z=6.6</td>
+        <td>Lido <span class="cell-muted">(probable)</span></td>
+        <td class="r num">28d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2026-05-27-exit.html">Exit surge 2026-05-27</a></td>
+        <td class="r">+222K<span class="unit">ETH</span></td>
+        <td class="r">z=4.8</td>
+        <td>Kraken <span class="cell-muted">(probable)</span></td>
+        <td class="r num">52d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2026-04-24</td>
+        <td class="r">+375K<span class="unit">ETH</span></td>
+        <td class="r">z=3.5</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">84d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2026-04-10-exit.html">Exit surge 2026-04-10</a></td>
+        <td class="r">+197K<span class="unit">ETH</span></td>
+        <td class="r">z=6.7</td>
+        <td>Lido <span class="cell-muted">(probable)</span></td>
+        <td class="r num">99d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2026-03-31</td>
+        <td class="r">+193K<span class="unit">ETH</span></td>
+        <td class="r">z=7.4</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">109d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2026-02-26-exit.html">Exit surge 2026-02-26</a></td>
+        <td class="r">+96K<span class="unit">ETH</span></td>
+        <td class="r">z=3.8</td>
+        <td>Lido <span class="cell-muted">(probable)</span></td>
+        <td class="r num">142d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2026-01-30</td>
+        <td class="r">+404K<span class="unit">ETH</span></td>
+        <td class="r">z=3.1</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">169d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2026-01-06</td>
+        <td class="r">+689K<span class="unit">ETH</span></td>
+        <td class="r">z=4.2</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">190d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2025-12-28</td>
+        <td class="r">+222K<span class="unit">ETH</span></td>
+        <td class="r">z=8.8</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">202d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2025-11-26-exit.html">Exit surge 2025-11-26</a></td>
+        <td class="r">+76K<span class="unit">ETH</span></td>
+        <td class="r">z=3.2</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">234d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2025-10-26-exit.html">Exit surge 2025-10-26</a></td>
+        <td class="r">+291K<span class="unit">ETH</span></td>
+        <td class="r">z=3.1</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">265d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2025-10-08</td>
+        <td class="r">+1.20M<span class="unit">ETH</span></td>
+        <td class="r">z=13.6</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">282d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2025-09-10-exit.html">Exit surge 2025-09-10</a></td>
+        <td class="r">+2.03M<span class="unit">ETH</span></td>
+        <td class="r">z=16.9</td>
+        <td>Kiln <span class="cell-muted">(probable)</span></td>
+        <td class="r num">310d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2025-08-25</td>
+        <td class="r">+475K<span class="unit">ETH</span></td>
+        <td class="r">z=5.1</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">326d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2025-08-15</td>
+        <td class="r">+219K<span class="unit">ETH</span></td>
+        <td class="r">z=8.3</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">337d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2025-07-19-exit.html">Exit surge 2025-07-19</a></td>
+        <td class="r">+382K<span class="unit">ETH</span></td>
+        <td class="r">z=9</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">361d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td>Entry surge 2025-06-03</td>
+        <td class="r">+164K<span class="unit">ETH</span></td>
+        <td class="r">z=6.4</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">410d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2025-05-22-exit.html">Exit surge 2025-05-22</a></td>
+        <td class="r">+86K<span class="unit">ETH</span></td>
+        <td class="r">z=17.1</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">422d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2025-04-14-exit.html">Exit surge 2025-04-14</a></td>
+        <td class="r">+112K<span class="unit">ETH</span></td>
+        <td class="r">z=4</td>
+        <td>Kraken <span class="cell-muted">(probable)</span></td>
+        <td class="r num">460d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2025-04-01-exit.html">Exit surge 2025-04-01</a></td>
+        <td class="r">+78K<span class="unit">ETH</span></td>
+        <td class="r">z=13.3</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">473d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2024-12-20-exit.html">Exit surge 2024-12-20</a></td>
+        <td class="r">+145K<span class="unit">ETH</span></td>
+        <td class="r">z=5.3</td>
+        <td>labeled individual <span class="cell-muted">(probable)</span></td>
+        <td class="r num">575d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2024-05-17-exit.html">Exit surge 2024-05-17</a></td>
+        <td class="r">+97K<span class="unit">ETH</span></td>
+        <td class="r">z=8.5</td>
+        <td>Lido <span class="cell-muted">(probable)</span></td>
+        <td class="r num">792d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2024-02-22-exit.html">Exit surge 2024-02-22</a></td>
+        <td class="r">+103K<span class="unit">ETH</span></td>
+        <td class="r">z=5.3</td>
+        <td>arthapala.eth <span class="cell-muted">(probable)</span></td>
+        <td class="r num">877d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2024-01-05-exit.html">Exit surge 2024-01-05</a></td>
+        <td class="r">+536K<span class="unit">ETH</span></td>
+        <td class="r">z=25.8</td>
+        <td>Figment <span class="cell-muted">(probable)</span></td>
+        <td class="r num">925d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2023-12-05-exit.html">Exit surge 2023-12-05</a></td>
+        <td class="r">+122K<span class="unit">ETH</span></td>
+        <td class="r">z=5</td>
+        <td>Coinbase <span class="cell-muted">(probable)</span></td>
+        <td class="r num">956d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2023-11-24-exit.html">Exit surge 2023-11-24</a></td>
+        <td class="r">+76K<span class="unit">ETH</span></td>
+        <td class="r">z=4.3</td>
+        <td>Lido <span class="cell-muted">(probable)</span></td>
+        <td class="r num">967d later</td>
+      </tr>
+      <tr>
+        <td class="r num">2026-07-17 22:01Z</td>
+        <td><span class="badge" data-tone="muted">retrospective</span></td>
+        <td><a href="events/2023-06-13-exit.html">Exit surge 2023-06-13</a></td>
+        <td class="r">+88K<span class="unit">ETH</span></td>
+        <td class="r">z=17.6</td>
+        <td><span class="cell-muted">unattributed</span></td>
+        <td class="r num">1131d later</td>
+      </tr></tbody>
+  </table></div>
+  <section class="section" id="corrections">
+    <div class="section-head"><h2>Corrections</h2><span class="section-note">accuracy is the product — errors get logged, not deleted</span></div>
+    <div class="table-wrap"><table class="data">
+      <thead><tr><th class="r">Date</th><th>What we got wrong</th><th>The correction</th></tr></thead>
+      <tbody><tr><td colspan="3" class="cell-muted">No corrections issued yet. When we get something wrong, it goes here — not down the memory hole.</td></tr></tbody>
+    </table></div>
+    <p style="margin:10px 0 0;font-size:12px;color:var(--ink-3);max-width:72ch">Policy: when an attribution or number is found wrong, we correct the page, log the error here permanently, and note the correction in the next brief. Attributions are published as <em>probable</em> (on-chain credential evidence against community-curated labels) and never upgraded to <em>confirmed</em> without independent corroboration.</p>
+  </section>
+</main>
+<footer class="site-footer"><div class="site-footer-inner">
+  <span>exit watch — Ethereum validator queue intelligence</span>
+  <span><a href="index.html">dashboard</a> · <a href="feed.xml">rss</a> · not financial advice</span>
+</div></footer>
+</body></html>
