@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Exit surge 2023-12-05 — Exit Watch</title>
+<link rel="stylesheet" href="../assets/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><rect x='3' y='3' width='10' height='10' rx='2' fill='%23c2410c'/></svg>">
+<script>(function(){if(localStorage.getItem('ew-theme')==='dark')document.documentElement.dataset.theme='dark';})();</script>
+</head>
+<body>
+<header class="site-header"><div class="site-header-inner">
+  <a class="brand" href="../index.html"><span class="brand-dot"></span>exit watch</a>
+  <nav class="site-nav"><a href="../index.html#events">← All surges</a></nav>
+  <div class="header-spacer"></div>
+  <button class="theme-toggle" onclick="var e=document.documentElement,n=e.dataset.theme==='dark'?'':'dark';n?e.dataset.theme=n:delete e.dataset.theme;localStorage.setItem('ew-theme',n||'light')">☾</button>
+</div></header>
+<main>
+  <div class="page-header">
+    <h1>Exit queue surge <span class="title-aside">Dec 5, 2023</span></h1>
+    <p class="page-meta">Detected at z=5 against the trailing 30-day inflow baseline. Attribution by on-chain withdrawal credentials joined to community-curated entity labels; cohort = validators assigned exit epochs in the surge window.</p>
+  </div>
+  <div class="stat-row">
+    <div class="stat-tile"><div class="stat-label label">Total inflow</div><div class="stat-value">+122K<span class="stat-unit">ETH</span></div></div>
+    <div class="stat-tile"><div class="stat-label label">Peak day</div><div class="stat-value">+122K<span class="stat-unit">ETH</span></div></div>
+    <div class="stat-tile"><div class="stat-label label">Queue reached</div><div class="stat-value">123K<span class="stat-unit">ETH</span></div></div>
+    <div class="stat-tile"><div class="stat-label label">Z-score</div><div class="stat-value">5</div></div>
+    <div class="stat-tile"><div class="stat-label label">Severity</div><div class="stat-value" style="font-size:18px;text-transform:uppercase">notable</div></div>
+  </div>
+  <section class="section">
+    <div class="section-head"><h2>Cohort attribution</h2><span class="section-note">no dominant mapped entity — honestly unattributed</span></div>
+    <div class="table-wrap"><table class="data">
+      <thead><tr><th>Entity</th><th>Category</th><th class="r">Validators</th><th class="r">Share</th><th class="r">ETH</th><th>Confidence</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><span class="cell-muted">(unmapped)</span></td>
+          <td><span class="cell-muted">—</span></td>
+          <td class="r">4,609</td>
+          <td class="r">75.5%</td>
+          <td class="r">~92K<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="muted">unattributed</span></td>
+        </tr>
+        <tr>
+          <td>Celsius</td>
+          <td>Staking Pool</td>
+          <td class="r">1,150</td>
+          <td class="r">18.8%</td>
+          <td class="r">~23K<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="warn">probable</span></td>
+        </tr>
+        <tr>
+          <td>Kraken</td>
+          <td>CEX</td>
+          <td class="r">158</td>
+          <td class="r">2.6%</td>
+          <td class="r">~3.2K<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="warn">probable</span></td>
+        </tr>
+        <tr>
+          <td>Upbit</td>
+          <td>CEX</td>
+          <td class="r">89</td>
+          <td class="r">1.5%</td>
+          <td class="r">~1.8K<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="warn">probable</span></td>
+        </tr>
+        <tr>
+          <td>Lido</td>
+          <td>Liquid Staking</td>
+          <td class="r">76</td>
+          <td class="r">1.2%</td>
+          <td class="r">~1.5K<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="warn">probable</span></td>
+        </tr>
+        <tr>
+          <td>Revolut</td>
+          <td>CEX</td>
+          <td class="r">18</td>
+          <td class="r">0.3%</td>
+          <td class="r">~361<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="warn">probable</span></td>
+        </tr>
+        <tr>
+          <td>ClayStack</td>
+          <td>Staking Pool</td>
+          <td class="r">2</td>
+          <td class="r">0%</td>
+          <td class="r">~40<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="warn">probable</span></td>
+        </tr>
+        <tr>
+          <td>brazy.eth</td>
+          <td>Solo Staker</td>
+          <td class="r">2</td>
+          <td class="r">0%</td>
+          <td class="r">~40<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="warn">probable</span></td>
+        </tr>
+        <tr>
+          <td>jamesjohnwalter.eth</td>
+          <td>Solo Staker</td>
+          <td class="r">2</td>
+          <td class="r">0%</td>
+          <td class="r">~40<span class="unit">ETH est.</span></td>
+          <td><span class="badge" data-tone="warn">probable</span></td>
+        </tr></tbody>
+    </table></div>
+    <p class="table-note">ETH figures are estimates: cohort share × the event's measured queue inflow (exited validators report zero balance post-withdrawal, so shares are computed by validator count). Entity labels: Dune spellbook + primary-source verified additions.</p>
+  </section>
+</main>
+<footer class="site-footer"><div class="site-footer-inner">
+  <span>exit watch — Ethereum validator queue intelligence</span>
+  <span><a href="../index.html">dashboard</a> · <a href="../feed.xml">rss</a> · not financial advice</span>
+</div></footer>
+</body></html>
