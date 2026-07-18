@@ -1,0 +1,29 @@
+metric,start_date,end_date,peak_z,peak_delta_eth,total_rise_eth,level_end_eth,severity,attribution,attribution_note
+exit_queue,2023-06-13,2023-06-13,17.6,88128,88128,89920,notable,unattributed,
+exit_queue,2023-11-24,2023-11-24,4.3,76288,76288,76288,notable,probable,"Lido ~53% of exiting cohort (~40,423 ETH est., 4381 validators, wc-embedded-depositor, src: dune-spellbook labels)"
+exit_queue,2023-12-05,2023-12-05,5,122464,122464,122528,notable,probable,"Coinbase ~51% of exiting cohort (~62,977 ETH est., 3140 validators, deposit-batch-contract, src: dune-spellbook labels)"
+exit_queue,2024-01-05,2024-01-05,25.8,535680,535680,536512,major,probable,"Figment ~51% of exiting cohort (~275,470 ETH est., 11120 validators, deposit-batch-contract, src: dune-spellbook labels)"
+exit_queue,2024-02-22,2024-02-22,5.3,102592,102592,108544,notable,probable,"arthapala.eth ~77% of exiting cohort (~78,718 ETH est., 4560 validators, wc-embedded-depositor, src: dune-spellbook labels)"
+exit_queue,2024-05-17,2024-05-17,8.5,97184,97184,123776,notable,probable,"Lido ~40% of exiting cohort (~39,035 ETH est., 2467 validators, wc-embedded-depositor, src: dune-spellbook labels)"
+exit_queue,2024-12-20,2024-12-20,5.3,144672,144672,144768,notable,probable,"Daniel Wang ~67% of exiting cohort (~96,685 ETH est., 5990 validators, deposit-sender, src: dune-spellbook labels)"
+exit_queue,2025-04-01,2025-04-01,13.3,77728,77728,80032,notable,unattributed,
+exit_queue,2025-04-14,2025-04-14,4,111584,111584,111712,notable,probable,"Kraken ~49% of exiting cohort (~54,129 ETH est., 4328 validators, wc-direct, src: dune-spellbook labels)"
+exit_queue,2025-05-22,2025-05-22,17.1,85822,85822,88898,notable,unattributed,
+entry_queue,2025-06-03,2025-06-03,6.4,163510,163510,281492,notable,unattributed,
+exit_queue,2025-07-19,2025-07-22,9,162336,382460,475708,notable,unattributed,
+entry_queue,2025-08-15,2025-08-15,8.3,218924,218924,324542,notable,unattributed,
+entry_queue,2025-08-25,2025-08-26,5.1,251875,474508,627133,notable,unattributed,
+exit_queue,2025-09-10,2025-09-11,16.9,1594271,2033134,2650032,extreme,unattributed,
+entry_queue,2025-10-08,2025-10-09,13.6,892100,1195533,1377477,major,unattributed,
+exit_queue,2025-10-26,2025-10-26,3.1,290817,290817,2458219,notable,unattributed,
+exit_queue,2025-11-26,2025-11-26,3.2,75902,75902,1718363,notable,unattributed,
+entry_queue,2025-12-28,2025-12-28,8.8,221560,221560,690968,notable,unattributed,
+entry_queue,2026-01-06,2026-01-09,4.2,306845,688531,1776102,major,unattributed,
+entry_queue,2026-01-30,2026-01-30,3.1,403958,403958,4072327,major,unattributed,
+exit_queue,2026-02-26,2026-02-26,3.8,96395,96395,135179,notable,probable,"Lido ~49% of exiting cohort (~47,012 ETH est., 3114 validators, wc-embedded-depositor, src: dune-spellbook labels)"
+entry_queue,2026-03-31,2026-03-31,7.4,193108,193108,2966115,notable,unattributed,
+exit_queue,2026-04-10,2026-04-10,6.7,196760,196760,196760,notable,probable,"Lido ~37% of exiting cohort (~72,096 ETH est., 1606 validators, wc-embedded-depositor, src: dune-spellbook labels)"
+entry_queue,2026-04-24,2026-04-25,3.5,209666,375441,3060262,notable,unattributed,
+exit_queue,2026-05-27,2026-05-27,4.8,222131,222131,222195,notable,probable,"Kraken ~69% of exiting cohort (~152,752 ETH est., 7662 validators, wc-direct, src: dune-spellbook labels)"
+exit_queue,2026-06-20,2026-06-20,6.6,345248,345248,383348,major,probable,"Lido ~47% of exiting cohort (~161,785 ETH est., 2403 validators, wc-embedded-depositor, src: dune-spellbook labels)"
+entry_queue,2026-06-27,2026-06-27,6.7,170695,170695,2977812,notable,unattributed,
