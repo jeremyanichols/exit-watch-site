@@ -1,8 +1,8 @@
 metric,start_date,end_date,peak_z,peak_delta_eth,total_rise_eth,level_end_eth,severity,attribution,attribution_note
 exit_queue,2023-06-13,2023-06-13,17.6,88128,88128,89920,notable,unattributed,
 exit_queue,2023-11-24,2023-11-24,4.3,76288,76288,76288,notable,probable,"Lido ~53% of exiting cohort (~40,423 ETH est., 4381 validators, wc-embedded-depositor, src: dune-spellbook labels)"
-exit_queue,2023-12-05,2023-12-05,5,122464,122464,122528,notable,probable,"Coinbase ~51% of exiting cohort (~62,977 ETH est., 3140 validators, deposit-batch-contract, src: dune-spellbook labels)"
-exit_queue,2024-01-05,2024-01-05,25.8,535680,535680,536512,major,probable,"Figment ~51% of exiting cohort (~275,470 ETH est., 11120 validators, deposit-batch-contract, src: dune-spellbook labels)"
+exit_queue,2023-12-05,2023-12-05,5,122464,122464,122528,notable,probable,"Coinbase ~57% of exiting cohort (~69,255 ETH est., 3453 validators, deposit-batch-contract, src: dune-spellbook labels)"
+exit_queue,2024-01-05,2024-01-05,25.8,535680,535680,536512,major,probable,"Figment ~51% of exiting cohort (~275,866 ETH est., 11136 validators, deposit-batch-contract, src: dune-spellbook labels)"
 exit_queue,2024-02-22,2024-02-22,5.3,102592,102592,108544,notable,probable,"arthapala.eth ~77% of exiting cohort (~78,718 ETH est., 4560 validators, wc-embedded-depositor, src: dune-spellbook labels)"
 exit_queue,2024-05-17,2024-05-17,8.5,97184,97184,123776,notable,probable,"Lido ~40% of exiting cohort (~39,035 ETH est., 2467 validators, wc-embedded-depositor, src: dune-spellbook labels)"
 exit_queue,2024-12-20,2024-12-20,5.3,144672,144672,144768,notable,probable,"Daniel Wang ~67% of exiting cohort (~96,685 ETH est., 5990 validators, deposit-sender, src: dune-spellbook labels)"
