@@ -22,3 +22,12 @@ date,side,entity,category,eth,items,share_pct
 2026-07-19,entry,Revolut,CEX,16416,513,0.7
 2026-07-19,entry,deepspacechase.eth,Solo Staker,32,1,0
 2026-07-19,exit,(unmapped),,1184,37,100
+2026-07-20,entry,(unmapped),,1214025,18743,49.2
+2026-07-20,entry,Lido,Liquid Staking,632288,19759,25.6
+2026-07-20,entry,Kraken,CEX,378974,996,15.3
+2026-07-20,entry,OKX,CEX,89997,96,3.6
+2026-07-20,entry,Bitbank,CEX,78395,77,3.2
+2026-07-20,entry,Upbit,CEX,59840,1870,2.4
+2026-07-20,entry,Revolut,CEX,16448,514,0.7
+2026-07-20,entry,deepspacechase.eth,Solo Staker,32,1,0
+2026-07-20,exit,(unmapped),,2304,72,100

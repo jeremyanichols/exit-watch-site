@@ -1,0 +1,88 @@
+{
+ "date": "2026-07-20",
+ "generated_at": "2026-07-20T12:15:03.608Z",
+ "queues": {
+  "exit_eth": 0,
+  "exit_wait_days": 0,
+  "entry_eth": 2489069,
+  "entry_wait_days": 43.21,
+  "validators": 884019,
+  "staked_eth": 40825384,
+  "apr": 2.64
+ },
+ "flows": {
+  "new_stake_eth": 2376269,
+  "internal_eth": 93731
+ },
+ "entry_composition": [
+  {
+   "entity": "(unmapped)",
+   "category": null,
+   "eth": 1214025,
+   "share_pct": 49.2,
+   "items": 18743
+  },
+  {
+   "entity": "Lido",
+   "category": "Liquid Staking",
+   "eth": 632288,
+   "share_pct": 25.6,
+   "items": 19759
+  },
+  {
+   "entity": "Kraken",
+   "category": "CEX",
+   "eth": 378974,
+   "share_pct": 15.3,
+   "items": 996
+  },
+  {
+   "entity": "OKX",
+   "category": "CEX",
+   "eth": 89997,
+   "share_pct": 3.6,
+   "items": 96
+  },
+  {
+   "entity": "Bitbank",
+   "category": "CEX",
+   "eth": 78395,
+   "share_pct": 3.2,
+   "items": 77
+  },
+  {
+   "entity": "Upbit",
+   "category": "CEX",
+   "eth": 59840,
+   "share_pct": 2.4,
+   "items": 1870
+  },
+  {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 16448,
+   "share_pct": 0.7,
+   "items": 514
+  },
+  {
+   "entity": "deepspacechase.eth",
+   "category": "Solo Staker",
+   "eth": 32,
+   "share_pct": 0,
+   "items": 1
+  }
+ ],
+ "crosscheck": {
+  "source": "beacon:publicnode",
+  "entry_eth": 2470000,
+  "exit_eth": 2304,
+  "vq_entry_eth": 2489069,
+  "vq_exit_eth": 0,
+  "flagged": false
+ },
+ "precision_notes": {
+  "queues": "exact (validatorqueue.com daily close, cross-checked)",
+  "entry_composition_eth": "exact sums of pending deposit amounts by mapped credential",
+  "attribution": "probable — label-based, see methodology"
+ }
+}

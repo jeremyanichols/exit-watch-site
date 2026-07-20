@@ -1,68 +1,68 @@
 {
- "date": "2026-07-19",
- "generated_at": "2026-07-19T12:37:11.260Z",
+ "date": "2026-07-20",
+ "generated_at": "2026-07-20T12:15:03.608Z",
  "queues": {
   "exit_eth": 0,
   "exit_wait_days": 0,
-  "entry_eth": 2543275,
-  "entry_wait_days": 44.15,
-  "validators": 882437,
-  "staked_eth": 40767526,
-  "apr": 2.65
+  "entry_eth": 2489069,
+  "entry_wait_days": 43.21,
+  "validators": 884019,
+  "staked_eth": 40825384,
+  "apr": 2.64
  },
  "flows": {
-  "new_stake_eth": 2427680,
-  "internal_eth": 93488
+  "new_stake_eth": 2376269,
+  "internal_eth": 93731
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1213914,
-   "share_pct": 48.1,
-   "items": 18735
+   "eth": 1214025,
+   "share_pct": 49.2,
+   "items": 18743
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 680800,
-   "share_pct": 27,
-   "items": 21275
+   "eth": 632288,
+   "share_pct": 25.6,
+   "items": 19759
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 382363,
-   "share_pct": 15.2,
-   "items": 1003
+   "eth": 378974,
+   "share_pct": 15.3,
+   "items": 996
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 89504,
+   "eth": 89997,
    "share_pct": 3.6,
-   "items": 95
+   "items": 96
   },
   {
    "entity": "Bitbank",
    "category": "CEX",
    "eth": 78395,
-   "share_pct": 3.1,
+   "share_pct": 3.2,
    "items": 77
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 59744,
+   "eth": 59840,
    "share_pct": 2.4,
-   "items": 1867
+   "items": 1870
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 16416,
+   "eth": 16448,
    "share_pct": 0.7,
-   "items": 513
+   "items": 514
   },
   {
    "entity": "deepspacechase.eth",
@@ -74,9 +74,9 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2521167,
-  "exit_eth": 1184,
-  "vq_entry_eth": 2543275,
+  "entry_eth": 2470000,
+  "exit_eth": 2304,
+  "vq_entry_eth": 2489069,
   "vq_exit_eth": 0,
   "flagged": false
  },
