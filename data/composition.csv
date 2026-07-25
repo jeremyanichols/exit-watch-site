@@ -70,12 +70,13 @@ date,side,entity,category,eth,items,share_pct
 2026-07-24,entry,Kiln,Staking Pool,1310,6,0.1
 2026-07-24,entry,deepspacechase.eth,Solo Staker,32,1,0
 2026-07-25,entry,(unmapped),,1154150,15986,46.6
-2026-07-25,entry,Lido,Liquid Staking,759296,23728,30.7
+2026-07-25,entry,Lido,Liquid Staking,758784,23712,30.7
 2026-07-25,entry,Kraken,CEX,324859,910,13.1
 2026-07-25,entry,OKX,CEX,83818,87,3.4
 2026-07-25,entry,Bitbank,CEX,78395,77,3.2
 2026-07-25,entry,Upbit,CEX,55488,1734,2.2
-2026-07-25,entry,Revolut,CEX,15264,477,0.6
+2026-07-25,entry,Revolut,CEX,15296,478,0.6
 2026-07-25,entry,Abyss Finance,Batch Staking Contract,2752,86,0.1
 2026-07-25,entry,Kiln,Staking Pool,1310,6,0.1
 2026-07-25,entry,deepspacechase.eth,Solo Staker,32,1,0
+2026-07-25,exit,(unmapped),,32,1,100

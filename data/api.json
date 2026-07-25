@@ -1,6 +1,6 @@
 {
  "date": "2026-07-22",
- "generated_at": "2026-07-25T12:00:43.827Z",
+ "generated_at": "2026-07-25T12:15:04.058Z",
  "queues": {
   "exit_eth": 0,
   "exit_wait_days": 0,
@@ -11,7 +11,7 @@
   "apr": 2.64
  },
  "flows": {
-  "new_stake_eth": 2377423,
+  "new_stake_eth": 2376943,
   "internal_eth": 97941
  },
  "entry_composition": [
@@ -25,9 +25,9 @@
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 759296,
+   "eth": 758784,
    "share_pct": 30.7,
-   "items": 23728
+   "items": 23712
   },
   {
    "entity": "Kraken",
@@ -60,9 +60,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 15264,
+   "eth": 15296,
    "share_pct": 0.6,
-   "items": 477
+   "items": 478
   },
   {
    "entity": "labeled individual",
@@ -88,8 +88,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2475364,
-  "exit_eth": 0,
+  "entry_eth": 2474884,
+  "exit_eth": 32,
   "vq_entry_eth": 2486019,
   "vq_exit_eth": 0,
   "flagged": false
