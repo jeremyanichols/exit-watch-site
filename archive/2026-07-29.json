@@ -1,0 +1,116 @@
+{
+ "date": "2026-07-29",
+ "generated_at": "2026-07-29T12:15:04.485Z",
+ "queues": {
+  "exit_eth": 1536,
+  "exit_wait_days": 0.03,
+  "entry_eth": 2431722,
+  "entry_wait_days": 42.22,
+  "validators": 887883,
+  "staked_eth": 41191020,
+  "apr": 2.66
+ },
+ "flows": {
+  "new_stake_eth": 2347973,
+  "internal_eth": 103609
+ },
+ "entry_composition": [
+  {
+   "entity": "(unmapped)",
+   "category": null,
+   "eth": 1168619,
+   "share_pct": 47.7,
+   "items": 17360
+  },
+  {
+   "entity": "Lido",
+   "category": "Liquid Staking",
+   "eth": 729824,
+   "share_pct": 29.8,
+   "items": 22807
+  },
+  {
+   "entity": "Kraken",
+   "category": "CEX",
+   "eth": 298318,
+   "share_pct": 12.2,
+   "items": 866
+  },
+  {
+   "entity": "Bitbank",
+   "category": "CEX",
+   "eth": 78395,
+   "share_pct": 3.2,
+   "items": 77
+  },
+  {
+   "entity": "OKX",
+   "category": "CEX",
+   "eth": 72078,
+   "share_pct": 2.9,
+   "items": 72
+  },
+  {
+   "entity": "Upbit",
+   "category": "CEX",
+   "eth": 45952,
+   "share_pct": 1.9,
+   "items": 1436
+  },
+  {
+   "entity": "Binance",
+   "category": "CEX",
+   "eth": 40000,
+   "share_pct": 1.6,
+   "items": 20
+  },
+  {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 13760,
+   "share_pct": 0.6,
+   "items": 430
+  },
+  {
+   "entity": "labeled individual",
+   "category": "Batch Staking Contract",
+   "eth": 2752,
+   "share_pct": 0.1,
+   "items": 86
+  },
+  {
+   "entity": "Kiln",
+   "category": "Staking Pool",
+   "eth": 1310,
+   "share_pct": 0.1,
+   "items": 6
+  },
+  {
+   "entity": "P2P.org",
+   "category": "Staking Pool",
+   "eth": 541,
+   "share_pct": 0,
+   "items": 3
+  },
+  {
+   "entity": "deepspacechase.eth",
+   "category": "Solo Staker",
+   "eth": 32,
+   "share_pct": 0,
+   "items": 1
+  }
+ ],
+ "crosscheck": {
+  "source": "beacon:publicnode",
+  "entry_eth": 2451581,
+  "exit_eth": 0,
+  "vq_entry_eth": 2431722,
+  "vq_exit_eth": 1536,
+  "flagged": false
+ },
+ "precision_notes": {
+  "queues": "exact (validatorqueue.com daily close, cross-checked)",
+  "entry_composition_eth": "exact sums of pending deposit amounts by mapped credential",
+  "attribution": "probable — label-based, see methodology"
+ }
+}
