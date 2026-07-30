@@ -1,40 +1,40 @@
 {
- "date": "2026-07-29",
- "generated_at": "2026-07-29T12:15:04.485Z",
+ "date": "2026-07-30",
+ "generated_at": "2026-07-30T12:15:04.271Z",
  "queues": {
-  "exit_eth": 1536,
-  "exit_wait_days": 0.03,
-  "entry_eth": 2431722,
-  "entry_wait_days": 42.22,
-  "validators": 887883,
-  "staked_eth": 41191020,
+  "exit_eth": 416,
+  "exit_wait_days": 0.01,
+  "entry_eth": 2468142,
+  "entry_wait_days": 42.85,
+  "validators": 889001,
+  "staked_eth": 41206635,
   "apr": 2.66
  },
  "flows": {
-  "new_stake_eth": 2347973,
-  "internal_eth": 103609
+  "new_stake_eth": 2354797,
+  "internal_eth": 119657
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1168619,
-   "share_pct": 47.7,
-   "items": 17360
+   "eth": 1216162,
+   "share_pct": 49.1,
+   "items": 17467
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 729824,
-   "share_pct": 29.8,
-   "items": 22807
+   "eth": 724800,
+   "share_pct": 29.3,
+   "items": 22650
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 298318,
-   "share_pct": 12.2,
-   "items": 866
+   "eth": 281536,
+   "share_pct": 11.4,
+   "items": 845
   },
   {
    "entity": "Bitbank",
@@ -46,16 +46,16 @@
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 72078,
+   "eth": 72379,
    "share_pct": 2.9,
-   "items": 72
+   "items": 74
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 45952,
-   "share_pct": 1.9,
-   "items": 1436
+   "eth": 43072,
+   "share_pct": 1.7,
+   "items": 1346
   },
   {
    "entity": "Binance",
@@ -67,9 +67,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 13760,
-   "share_pct": 0.6,
-   "items": 430
+   "eth": 13152,
+   "share_pct": 0.5,
+   "items": 411
   },
   {
    "entity": "labeled individual",
@@ -88,9 +88,9 @@
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 541,
+   "eth": 864,
    "share_pct": 0,
-   "items": 3
+   "items": 4
   },
   {
    "entity": "deepspacechase.eth",
@@ -102,10 +102,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2451581,
+  "entry_eth": 2474454,
   "exit_eth": 0,
-  "vq_entry_eth": 2431722,
-  "vq_exit_eth": 1536,
+  "vq_entry_eth": 2468142,
+  "vq_exit_eth": 416,
   "flagged": false
  },
  "precision_notes": {
