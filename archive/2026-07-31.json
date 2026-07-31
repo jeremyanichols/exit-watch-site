@@ -1,0 +1,116 @@
+{
+ "date": "2026-07-31",
+ "generated_at": "2026-07-31T12:15:03.740Z",
+ "queues": {
+  "exit_eth": 0,
+  "exit_wait_days": 0,
+  "entry_eth": 2494152,
+  "entry_wait_days": 43.3,
+  "validators": 890279,
+  "staked_eth": 41244180,
+  "apr": 2.67
+ },
+ "flows": {
+  "new_stake_eth": 2373894,
+  "internal_eth": 120250
+ },
+ "entry_composition": [
+  {
+   "entity": "(unmapped)",
+   "category": null,
+   "eth": 1230869,
+   "share_pct": 49.4,
+   "items": 17648
+  },
+  {
+   "entity": "Lido",
+   "category": "Liquid Staking",
+   "eth": 732928,
+   "share_pct": 29.4,
+   "items": 22904
+  },
+  {
+   "entity": "Kraken",
+   "category": "CEX",
+   "eth": 279191,
+   "share_pct": 11.2,
+   "items": 838
+  },
+  {
+   "entity": "Bitbank",
+   "category": "CEX",
+   "eth": 78395,
+   "share_pct": 3.1,
+   "items": 77
+  },
+  {
+   "entity": "OKX",
+   "category": "CEX",
+   "eth": 72379,
+   "share_pct": 2.9,
+   "items": 74
+  },
+  {
+   "entity": "Upbit",
+   "category": "CEX",
+   "eth": 42528,
+   "share_pct": 1.7,
+   "items": 1329
+  },
+  {
+   "entity": "Binance",
+   "category": "CEX",
+   "eth": 40000,
+   "share_pct": 1.6,
+   "items": 20
+  },
+  {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 12896,
+   "share_pct": 0.5,
+   "items": 403
+  },
+  {
+   "entity": "labeled individual",
+   "category": "Batch Staking Contract",
+   "eth": 2752,
+   "share_pct": 0.1,
+   "items": 86
+  },
+  {
+   "entity": "Kiln",
+   "category": "Staking Pool",
+   "eth": 1310,
+   "share_pct": 0.1,
+   "items": 6
+  },
+  {
+   "entity": "P2P.org",
+   "category": "Staking Pool",
+   "eth": 864,
+   "share_pct": 0,
+   "items": 4
+  },
+  {
+   "entity": "deepspacechase.eth",
+   "category": "Solo Staker",
+   "eth": 32,
+   "share_pct": 0,
+   "items": 1
+  }
+ ],
+ "crosscheck": {
+  "source": "beacon:publicnode",
+  "entry_eth": 2494143,
+  "exit_eth": 0,
+  "vq_entry_eth": 2494152,
+  "vq_exit_eth": 0,
+  "flagged": false
+ },
+ "precision_notes": {
+  "queues": "exact (validatorqueue.com daily close, cross-checked)",
+  "entry_composition_eth": "exact sums of pending deposit amounts by mapped credential",
+  "attribution": "probable — label-based, see methodology"
+ }
+}

@@ -1,46 +1,46 @@
 {
- "date": "2026-07-30",
- "generated_at": "2026-07-30T12:15:04.271Z",
+ "date": "2026-07-31",
+ "generated_at": "2026-07-31T12:15:03.740Z",
  "queues": {
-  "exit_eth": 416,
-  "exit_wait_days": 0.01,
-  "entry_eth": 2468142,
-  "entry_wait_days": 42.85,
-  "validators": 889001,
-  "staked_eth": 41206635,
-  "apr": 2.66
+  "exit_eth": 0,
+  "exit_wait_days": 0,
+  "entry_eth": 2494152,
+  "entry_wait_days": 43.3,
+  "validators": 890279,
+  "staked_eth": 41244180,
+  "apr": 2.67
  },
  "flows": {
-  "new_stake_eth": 2354797,
-  "internal_eth": 119657
+  "new_stake_eth": 2373894,
+  "internal_eth": 120250
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1216162,
-   "share_pct": 49.1,
-   "items": 17467
+   "eth": 1230869,
+   "share_pct": 49.4,
+   "items": 17648
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 724800,
-   "share_pct": 29.3,
-   "items": 22650
+   "eth": 732928,
+   "share_pct": 29.4,
+   "items": 22904
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 281536,
-   "share_pct": 11.4,
-   "items": 845
+   "eth": 279191,
+   "share_pct": 11.2,
+   "items": 838
   },
   {
    "entity": "Bitbank",
    "category": "CEX",
    "eth": 78395,
-   "share_pct": 3.2,
+   "share_pct": 3.1,
    "items": 77
   },
   {
@@ -53,9 +53,9 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 43072,
+   "eth": 42528,
    "share_pct": 1.7,
-   "items": 1346
+   "items": 1329
   },
   {
    "entity": "Binance",
@@ -67,9 +67,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 13152,
+   "eth": 12896,
    "share_pct": 0.5,
-   "items": 411
+   "items": 403
   },
   {
    "entity": "labeled individual",
@@ -102,10 +102,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2474454,
+  "entry_eth": 2494143,
   "exit_eth": 0,
-  "vq_entry_eth": 2468142,
-  "vq_exit_eth": 416,
+  "vq_entry_eth": 2494152,
+  "vq_exit_eth": 0,
   "flagged": false
  },
  "precision_notes": {
