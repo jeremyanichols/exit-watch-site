@@ -1,40 +1,40 @@
 {
- "date": "2026-08-01",
- "generated_at": "2026-08-01T12:15:03.339Z",
+ "date": "2026-08-02",
+ "generated_at": "2026-08-02T12:15:03.306Z",
  "queues": {
   "exit_eth": 0,
   "exit_wait_days": 0,
-  "entry_eth": 2504362,
-  "entry_wait_days": 43.48,
-  "validators": 890958,
-  "staked_eth": 41270328,
+  "entry_eth": 2460088,
+  "entry_wait_days": 42.71,
+  "validators": 891316,
+  "staked_eth": 41317554,
   "apr": 2.67
  },
  "flows": {
-  "new_stake_eth": 2367861,
-  "internal_eth": 117329
+  "new_stake_eth": 2323559,
+  "internal_eth": 117259
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1224326,
-   "share_pct": 49.3,
-   "items": 16892
+   "eth": 1199991,
+   "share_pct": 49.2,
+   "items": 16126
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 734592,
-   "share_pct": 29.6,
-   "items": 22956
+   "eth": 729600,
+   "share_pct": 29.9,
+   "items": 22800
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 276921,
-   "share_pct": 11.1,
-   "items": 805
+   "eth": 275622,
+   "share_pct": 11.3,
+   "items": 804
   },
   {
    "entity": "Bitbank",
@@ -46,16 +46,9 @@
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 72222,
-   "share_pct": 2.9,
-   "items": 74
-  },
-  {
-   "entity": "Upbit",
-   "category": "CEX",
-   "eth": 40800,
-   "share_pct": 1.6,
-   "items": 1275
+   "eth": 61928,
+   "share_pct": 2.5,
+   "items": 67
   },
   {
    "entity": "Binance",
@@ -65,11 +58,18 @@
    "items": 20
   },
   {
+   "entity": "Upbit",
+   "category": "CEX",
+   "eth": 37984,
+   "share_pct": 1.6,
+   "items": 1187
+  },
+  {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 12256,
+   "eth": 11520,
    "share_pct": 0.5,
-   "items": 383
+   "items": 360
   },
   {
    "entity": "labeled individual",
@@ -81,9 +81,9 @@
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 1360,
+   "eth": 1460,
    "share_pct": 0.1,
-   "items": 6
+   "items": 7
   },
   {
    "entity": "Kiln",
@@ -109,9 +109,9 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2485190,
-  "exit_eth": 1296,
-  "vq_entry_eth": 2504362,
+  "entry_eth": 2440818,
+  "exit_eth": 0,
+  "vq_entry_eth": 2460088,
   "vq_exit_eth": 0,
   "flagged": false
  },
