@@ -1,74 +1,74 @@
 {
- "date": "2026-08-03",
- "generated_at": "2026-08-03T12:15:03.524Z",
+ "date": "2026-08-04",
+ "generated_at": "2026-08-04T12:15:03.451Z",
  "queues": {
-  "exit_eth": 0,
-  "exit_wait_days": 0,
-  "entry_eth": 2408499,
-  "entry_wait_days": 41.81,
-  "validators": 892359,
-  "staked_eth": 41348420,
-  "apr": 2.67
+  "exit_eth": 20164,
+  "exit_wait_days": 0.35,
+  "entry_eth": 2533195,
+  "entry_wait_days": 43.98,
+  "validators": 893815,
+  "staked_eth": 41410983,
+  "apr": 2.66
  },
  "flows": {
-  "new_stake_eth": 2274375,
-  "internal_eth": 118365
+  "new_stake_eth": 2393787,
+  "internal_eth": 119609
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1191169,
-   "share_pct": 49.8,
-   "items": 15973
+   "eth": 1359704,
+   "share_pct": 54.1,
+   "items": 16013
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 694752,
-   "share_pct": 29,
-   "items": 21711
+   "eth": 646016,
+   "share_pct": 25.7,
+   "items": 20188
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 275622,
-   "share_pct": 11.5,
-   "items": 804
+   "eth": 274650,
+   "share_pct": 10.9,
+   "items": 802
   },
   {
    "entity": "Bitbank",
    "category": "CEX",
    "eth": 78395,
-   "share_pct": 3.3,
+   "share_pct": 3.1,
    "items": 77
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 59409,
-   "share_pct": 2.5,
-   "items": 65
+   "eth": 60309,
+   "share_pct": 2.4,
+   "items": 67
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 40000,
-   "share_pct": 1.7,
+   "share_pct": 1.6,
    "items": 20
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 36608,
+   "eth": 37536,
    "share_pct": 1.5,
-   "items": 1144
+   "items": 1173
   },
   {
    "entity": "Revolut",
    "category": "CEX",
    "eth": 11008,
-   "share_pct": 0.5,
+   "share_pct": 0.4,
    "items": 344
   },
   {
@@ -109,10 +109,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2392741,
-  "exit_eth": 0,
-  "vq_entry_eth": 2408499,
-  "vq_exit_eth": 0,
+  "entry_eth": 2513396,
+  "exit_eth": 32,
+  "vq_entry_eth": 2533195,
+  "vq_exit_eth": 20164,
   "flagged": false
  },
  "precision_notes": {
