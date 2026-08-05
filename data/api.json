@@ -1,54 +1,54 @@
 {
- "date": "2026-08-04",
- "generated_at": "2026-08-04T12:15:03.451Z",
+ "date": "2026-08-05",
+ "generated_at": "2026-08-05T12:15:03.477Z",
  "queues": {
-  "exit_eth": 20164,
-  "exit_wait_days": 0.35,
-  "entry_eth": 2533195,
-  "entry_wait_days": 43.98,
-  "validators": 893815,
-  "staked_eth": 41410983,
-  "apr": 2.66
+  "exit_eth": 96,
+  "exit_wait_days": 0,
+  "entry_eth": 2488354,
+  "entry_wait_days": 43.2,
+  "validators": 894872,
+  "staked_eth": 41450040,
+  "apr": 2.65
  },
  "flows": {
-  "new_stake_eth": 2393787,
-  "internal_eth": 119609
+  "new_stake_eth": 2363481,
+  "internal_eth": 123861
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1359704,
-   "share_pct": 54.1,
-   "items": 16013
+   "eth": 1332262,
+   "share_pct": 53.6,
+   "items": 15626
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 646016,
-   "share_pct": 25.7,
-   "items": 20188
+   "eth": 654464,
+   "share_pct": 26.3,
+   "items": 20452
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 274650,
-   "share_pct": 10.9,
-   "items": 802
+   "eth": 273533,
+   "share_pct": 11,
+   "items": 775
   },
   {
    "entity": "Bitbank",
    "category": "CEX",
    "eth": 78395,
-   "share_pct": 3.1,
+   "share_pct": 3.2,
    "items": 77
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 60309,
-   "share_pct": 2.4,
-   "items": 67
+   "eth": 56331,
+   "share_pct": 2.3,
+   "items": 64
   },
   {
    "entity": "Binance",
@@ -60,30 +60,30 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 37536,
-   "share_pct": 1.5,
-   "items": 1173
+   "eth": 35616,
+   "share_pct": 1.4,
+   "items": 1113
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 11008,
+   "eth": 10560,
    "share_pct": 0.4,
-   "items": 344
+   "items": 330
   },
   {
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
-   "eth": 2752,
+   "eth": 2848,
    "share_pct": 0.1,
-   "items": 86
+   "items": 89
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 1460,
+   "eth": 1767,
    "share_pct": 0.1,
-   "items": 7
+   "items": 10
   },
   {
    "entity": "Kiln",
@@ -109,10 +109,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2513396,
-  "exit_eth": 32,
-  "vq_entry_eth": 2533195,
-  "vq_exit_eth": 20164,
+  "entry_eth": 2487342,
+  "exit_eth": 64,
+  "vq_entry_eth": 2488354,
+  "vq_exit_eth": 96,
   "flagged": false
  },
  "precision_notes": {
