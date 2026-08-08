@@ -1,6 +1,6 @@
 {
  "date": "2026-08-08",
- "generated_at": "2026-08-08T12:00:45.847Z",
+ "generated_at": "2026-08-08T12:15:03.304Z",
  "queues": {
   "exit_eth": 32,
   "exit_wait_days": 0,
@@ -11,16 +11,16 @@
   "apr": 2.63
  },
  "flows": {
-  "new_stake_eth": 2324880,
+  "new_stake_eth": 2322928,
   "internal_eth": 125014
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1327590,
+   "eth": 1327558,
    "share_pct": 54.2,
-   "items": 15168
+   "items": 15167
   },
   {
    "entity": "Lido",
@@ -32,9 +32,9 @@
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 248846,
-   "share_pct": 10.2,
-   "items": 195
+   "eth": 246926,
+   "share_pct": 10.1,
+   "items": 194
   },
   {
    "entity": "Bitbank",
@@ -123,7 +123,7 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2449894,
+  "entry_eth": 2447942,
   "exit_eth": 0,
   "vq_entry_eth": 2469237,
   "vq_exit_eth": 32,
