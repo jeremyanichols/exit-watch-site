@@ -1,33 +1,33 @@
 {
- "date": "2026-08-18",
- "generated_at": "2026-08-18T12:15:03.547Z",
+ "date": "2026-08-19",
+ "generated_at": "2026-08-19T12:15:03.581Z",
  "queues": {
-  "exit_eth": 64,
-  "exit_wait_days": 0,
-  "entry_eth": 2208206,
-  "entry_wait_days": 38.34,
-  "validators": 899273,
-  "staked_eth": 42135912,
-  "apr": 2.6
+  "exit_eth": 320,
+  "exit_wait_days": 0.01,
+  "entry_eth": 2186662,
+  "entry_wait_days": 37.96,
+  "validators": 900930,
+  "staked_eth": 42176090,
+  "apr": 2.59
  },
  "flows": {
-  "new_stake_eth": 2064346,
-  "internal_eth": 138295
+  "new_stake_eth": 2061170,
+  "internal_eth": 138131
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1220677,
-   "share_pct": 55.4,
-   "items": 14957
+   "eth": 1243173,
+   "share_pct": 56.5,
+   "items": 14751
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 631808,
-   "share_pct": 28.7,
-   "items": 19744
+   "eth": 612672,
+   "share_pct": 27.9,
+   "items": 19146
   },
   {
    "entity": "Binance",
@@ -46,9 +46,9 @@
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 76181,
-   "share_pct": 3.5,
-   "items": 79
+   "eth": 71215,
+   "share_pct": 3.2,
+   "items": 75
   },
   {
    "entity": "Kiln",
@@ -60,23 +60,23 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 29312,
+   "eth": 28736,
    "share_pct": 1.3,
-   "items": 916
+   "items": 898
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 24252,
+   "eth": 23733,
    "share_pct": 1.1,
-   "items": 96
+   "items": 94
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 9088,
+   "eth": 8448,
    "share_pct": 0.4,
-   "items": 284
+   "items": 264
   },
   {
    "entity": "P2P.org",
@@ -123,10 +123,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2202641,
-  "exit_eth": 0,
-  "vq_entry_eth": 2208206,
-  "vq_exit_eth": 64,
+  "entry_eth": 2199301,
+  "exit_eth": 32,
+  "vq_entry_eth": 2186662,
+  "vq_exit_eth": 320,
   "flagged": false
  },
  "precision_notes": {
