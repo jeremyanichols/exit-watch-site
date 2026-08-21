@@ -441,3 +441,20 @@ date,side,entity,category,eth,items,share_pct
 2026-08-20,entry,synergycrypto.eth,Solo Staker,832,1,0
 2026-08-20,entry,Coinbase,CEX,224,7,0
 2026-08-20,entry,Figment,Staking Pool,64,2,0
+2026-08-21,entry,(unmapped),,1206677,14406,53.5
+2026-08-21,entry,Lido,Liquid Staking,598144,18692,26.5
+2026-08-21,entry,OKX,CEX,120523,105,5.3
+2026-08-21,entry,Binance,CEX,120000,60,5.3
+2026-08-21,entry,Bitbank,CEX,78395,77,3.5
+2026-08-21,entry,Kiln,Staking Pool,66398,50,2.9
+2026-08-21,entry,Upbit,CEX,27296,853,1.2
+2026-08-21,entry,Kraken,CEX,22586,73,1
+2026-08-21,entry,Revolut,CEX,7296,228,0.3
+2026-08-21,entry,P2P.org,Staking Pool,4082,54,0.2
+2026-08-21,entry,Abyss Finance,Batch Staking Contract,3168,99,0.1
+2026-08-21,entry,stakefish,Staking Pool,1408,44,0.1
+2026-08-21,entry,synergycrypto.eth,Solo Staker,832,1,0
+2026-08-21,entry,Coinbase,CEX,224,7,0
+2026-08-21,entry,Figment,Staking Pool,64,2,0
+2026-08-21,exit,(unmapped),,160,5,71.4
+2026-08-21,exit,Revolut,CEX,64,2,28.6
