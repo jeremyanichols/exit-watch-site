@@ -1,6 +1,6 @@
 {
  "date": "2026-08-22",
- "generated_at": "2026-08-22T12:00:38.041Z",
+ "generated_at": "2026-08-22T12:15:03.280Z",
  "queues": {
   "exit_eth": 1728,
   "exit_wait_days": 0.03,
@@ -124,7 +124,7 @@
  "crosscheck": {
   "source": "beacon:publicnode",
   "entry_eth": 2274616,
-  "exit_eth": 22709,
+  "exit_eth": 22229,
   "vq_entry_eth": 2262825,
   "vq_exit_eth": 1728,
   "flagged": false
