@@ -1,82 +1,82 @@
 {
- "date": "2026-08-23",
- "generated_at": "2026-08-23T12:15:03.231Z",
+ "date": "2026-08-24",
+ "generated_at": "2026-08-24T12:15:03.434Z",
  "queues": {
-  "exit_eth": 160,
+  "exit_eth": 32,
   "exit_wait_days": 0,
-  "entry_eth": 2248711,
-  "entry_wait_days": 39.04,
-  "validators": 901437,
-  "staked_eth": 42248862,
-  "apr": 2.66
+  "entry_eth": 2199123,
+  "entry_wait_days": 38.18,
+  "validators": 902163,
+  "staked_eth": 42296589,
+  "apr": 2.67
  },
  "flows": {
-  "new_stake_eth": 2067523,
-  "internal_eth": 158595
+  "new_stake_eth": 2021853,
+  "internal_eth": 157626
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1189915,
-   "share_pct": 53.5,
-   "items": 13451
+   "eth": 1157334,
+   "share_pct": 53.1,
+   "items": 13051
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 555936,
-   "share_pct": 25,
-   "items": 17373
+   "eth": 553088,
+   "share_pct": 25.4,
+   "items": 17284
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 151733,
-   "share_pct": 6.8,
-   "items": 127
+   "eth": 144751,
+   "share_pct": 6.6,
+   "items": 123
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 120000,
-   "share_pct": 5.4,
+   "share_pct": 5.5,
    "items": 60
   },
   {
    "entity": "Bitbank",
    "category": "CEX",
    "eth": 78395,
-   "share_pct": 3.5,
+   "share_pct": 3.6,
    "items": 77
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
-   "eth": 66494,
-   "share_pct": 3,
-   "items": 53
+   "eth": 66526,
+   "share_pct": 3.1,
+   "items": 54
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 25387,
-   "share_pct": 1.1,
-   "items": 168
+   "eth": 21992,
+   "share_pct": 1,
+   "items": 165
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 22304,
+   "eth": 21824,
    "share_pct": 1,
-   "items": 697
+   "items": 682
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 5760,
-   "share_pct": 0.3,
-   "items": 180
+   "eth": 5376,
+   "share_pct": 0.2,
+   "items": 168
   },
   {
    "entity": "P2P.org",
@@ -119,14 +119,21 @@
    "eth": 64,
    "share_pct": 0,
    "items": 2
+  },
+  {
+   "entity": "edmiikk.eth",
+   "category": "Solo Staker",
+   "eth": 0,
+   "share_pct": 0,
+   "items": 1
   }
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2226118,
-  "exit_eth": 96,
-  "vq_entry_eth": 2248711,
-  "vq_exit_eth": 160,
+  "entry_eth": 2179479,
+  "exit_eth": 0,
+  "vq_entry_eth": 2199123,
+  "vq_exit_eth": 32,
   "flagged": false
  },
  "precision_notes": {
