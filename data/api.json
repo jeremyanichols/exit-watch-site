@@ -1,82 +1,82 @@
 {
- "date": "2026-08-24",
- "generated_at": "2026-08-24T12:15:03.434Z",
+ "date": "2026-08-25",
+ "generated_at": "2026-08-25T12:15:03.563Z",
  "queues": {
-  "exit_eth": 32,
+  "exit_eth": 64,
   "exit_wait_days": 0,
-  "entry_eth": 2199123,
-  "entry_wait_days": 38.18,
-  "validators": 902163,
-  "staked_eth": 42296589,
-  "apr": 2.67
+  "entry_eth": 2216207,
+  "entry_wait_days": 38.48,
+  "validators": 902676,
+  "staked_eth": 42360602,
+  "apr": 2.68
  },
  "flows": {
-  "new_stake_eth": 2021853,
-  "internal_eth": 157626
+  "new_stake_eth": 2058444,
+  "internal_eth": 169333
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1157334,
-   "share_pct": 53.1,
-   "items": 13051
+   "eth": 1170201,
+   "share_pct": 52.5,
+   "items": 12776
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 553088,
-   "share_pct": 25.4,
-   "items": 17284
+   "eth": 590688,
+   "share_pct": 26.5,
+   "items": 18459
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 144751,
-   "share_pct": 6.6,
-   "items": 123
+   "eth": 144413,
+   "share_pct": 6.5,
+   "items": 122
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 120000,
-   "share_pct": 5.5,
+   "share_pct": 5.4,
    "items": 60
   },
   {
    "entity": "Bitbank",
    "category": "CEX",
    "eth": 78395,
-   "share_pct": 3.6,
+   "share_pct": 3.5,
    "items": 77
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
    "eth": 66526,
-   "share_pct": 3.1,
+   "share_pct": 3,
    "items": 54
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 21992,
+   "eth": 21664,
    "share_pct": 1,
-   "items": 165
+   "items": 164
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 21824,
-   "share_pct": 1,
-   "items": 682
+   "eth": 20576,
+   "share_pct": 0.9,
+   "items": 643
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 5376,
+   "eth": 5120,
    "share_pct": 0.2,
-   "items": 168
+   "items": 160
   },
   {
    "entity": "P2P.org",
@@ -130,10 +130,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2179479,
-  "exit_eth": 0,
-  "vq_entry_eth": 2199123,
-  "vq_exit_eth": 32,
+  "entry_eth": 2227777,
+  "exit_eth": 160,
+  "vq_entry_eth": 2216207,
+  "vq_exit_eth": 64,
   "flagged": false
  },
  "precision_notes": {
