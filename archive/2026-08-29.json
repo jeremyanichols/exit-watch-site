@@ -1,6 +1,6 @@
 {
  "date": "2026-08-29",
- "generated_at": "2026-08-29T12:00:38.862Z",
+ "generated_at": "2026-08-29T12:15:03.126Z",
  "queues": {
   "exit_eth": 2464,
   "exit_wait_days": 0.04,
@@ -11,16 +11,16 @@
   "apr": 2.65
  },
  "flows": {
-  "new_stake_eth": 1950752,
+  "new_stake_eth": 1950784,
   "internal_eth": 161754
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1145749,
+   "eth": 1145781,
    "share_pct": 54.2,
-   "items": 12743
+   "items": 12744
   },
   {
    "entity": "Lido",
@@ -130,7 +130,7 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2112506,
+  "entry_eth": 2112538,
   "exit_eth": 0,
   "vq_entry_eth": 2134076,
   "vq_exit_eth": 2464,
