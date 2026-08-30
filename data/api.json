@@ -1,47 +1,47 @@
 {
- "date": "2026-08-29",
- "generated_at": "2026-08-29T12:15:03.126Z",
+ "date": "2026-08-30",
+ "generated_at": "2026-08-30T12:15:03.091Z",
  "queues": {
-  "exit_eth": 2464,
-  "exit_wait_days": 0.04,
-  "entry_eth": 2134076,
-  "entry_wait_days": 37.05,
-  "validators": 902651,
-  "staked_eth": 42464828,
-  "apr": 2.65
+  "exit_eth": 0,
+  "exit_wait_days": 0,
+  "entry_eth": 2079301,
+  "entry_wait_days": 36.1,
+  "validators": 902429,
+  "staked_eth": 42437422,
+  "apr": 2.63
  },
  "flows": {
-  "new_stake_eth": 1950784,
-  "internal_eth": 161754
+  "new_stake_eth": 1897459,
+  "internal_eth": 162132
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1145781,
-   "share_pct": 54.2,
-   "items": 12744
+   "eth": 1131315,
+   "share_pct": 54.9,
+   "items": 12339
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 506560,
-   "share_pct": 24,
-   "items": 15830
+   "eth": 508832,
+   "share_pct": 24.7,
+   "items": 15901
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 160000,
-   "share_pct": 7.6,
+   "share_pct": 7.8,
    "items": 80
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 144761,
-   "share_pct": 6.9,
-   "items": 124
+   "eth": 144290,
+   "share_pct": 7,
+   "items": 123
   },
   {
    "entity": "Kiln",
@@ -51,18 +51,11 @@
    "items": 56
   },
   {
-   "entity": "Bitbank",
-   "category": "CEX",
-   "eth": 40507,
-   "share_pct": 1.9,
-   "items": 40
-  },
-  {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 20192,
+   "eth": 20416,
    "share_pct": 1,
-   "items": 631
+   "items": 638
   },
   {
    "entity": "Kraken",
@@ -130,10 +123,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2112538,
+  "entry_eth": 2059590,
   "exit_eth": 0,
-  "vq_entry_eth": 2134076,
-  "vq_exit_eth": 2464,
+  "vq_entry_eth": 2079301,
+  "vq_exit_eth": 0,
   "flagged": false
  },
  "precision_notes": {
