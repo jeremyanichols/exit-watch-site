@@ -1,0 +1,144 @@
+{
+ "date": "2026-09-02",
+ "generated_at": "2026-09-02T12:15:03.713Z",
+ "queues": {
+  "exit_eth": 12386,
+  "exit_wait_days": 0.22,
+  "entry_eth": 2088205,
+  "entry_wait_days": 36.25,
+  "validators": 904423,
+  "staked_eth": 42613696,
+  "apr": 2.61
+ },
+ "flows": {
+  "new_stake_eth": 1907392,
+  "internal_eth": 163303
+ },
+ "entry_composition": [
+  {
+   "entity": "(unmapped)",
+   "category": null,
+   "eth": 1121255,
+   "share_pct": 54.1,
+   "items": 10865
+  },
+  {
+   "entity": "Lido",
+   "category": "Liquid Staking",
+   "eth": 536416,
+   "share_pct": 25.9,
+   "items": 16763
+  },
+  {
+   "entity": "Binance",
+   "category": "CEX",
+   "eth": 160000,
+   "share_pct": 7.7,
+   "items": 80
+  },
+  {
+   "entity": "OKX",
+   "category": "CEX",
+   "eth": 143960,
+   "share_pct": 7,
+   "items": 120
+  },
+  {
+   "entity": "Kiln",
+   "category": "Staking Pool",
+   "eth": 66535,
+   "share_pct": 3.2,
+   "items": 54
+  },
+  {
+   "entity": "Upbit",
+   "category": "CEX",
+   "eth": 17024,
+   "share_pct": 0.8,
+   "items": 532
+  },
+  {
+   "entity": "Kraken",
+   "category": "CEX",
+   "eth": 5216,
+   "share_pct": 0.3,
+   "items": 163
+  },
+  {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 4288,
+   "share_pct": 0.2,
+   "items": 134
+  },
+  {
+   "entity": "P2P.org",
+   "category": "Staking Pool",
+   "eth": 4065,
+   "share_pct": 0.2,
+   "items": 56
+  },
+  {
+   "entity": "Figment",
+   "category": "Staking Pool",
+   "eth": 3968,
+   "share_pct": 0.2,
+   "items": 124
+  },
+  {
+   "entity": "labeled individual",
+   "category": "Batch Staking Contract",
+   "eth": 3616,
+   "share_pct": 0.2,
+   "items": 113
+  },
+  {
+   "entity": "epstrom.eth",
+   "category": "Solo Staker",
+   "eth": 1856,
+   "share_pct": 0.1,
+   "items": 58
+  },
+  {
+   "entity": "stakefish",
+   "category": "Staking Pool",
+   "eth": 1408,
+   "share_pct": 0.1,
+   "items": 44
+  },
+  {
+   "entity": "synergycrypto.eth",
+   "category": "Solo Staker",
+   "eth": 832,
+   "share_pct": 0,
+   "items": 1
+  },
+  {
+   "entity": "Coinbase",
+   "category": "CEX",
+   "eth": 256,
+   "share_pct": 0,
+   "items": 8
+  },
+  {
+   "entity": "edmiikk.eth",
+   "category": "Solo Staker",
+   "eth": 0,
+   "share_pct": 0,
+   "items": 1
+  }
+ ],
+ "crosscheck": {
+  "source": "beacon:publicnode",
+  "entry_eth": 2070695,
+  "exit_eth": 256,
+  "vq_entry_eth": 2088205,
+  "vq_exit_eth": 12386,
+  "flagged": false
+ },
+ "precision_notes": {
+  "queues": "exact (validatorqueue.com daily close, cross-checked)",
+  "entry_composition_eth": "exact sums of pending deposit amounts by mapped credential",
+  "attribution": "probable — label-based, see methodology"
+ }
+}
