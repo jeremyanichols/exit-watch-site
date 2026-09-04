@@ -1,33 +1,33 @@
 {
- "date": "2026-09-03",
- "generated_at": "2026-09-03T12:15:04.271Z",
+ "date": "2026-09-04",
+ "generated_at": "2026-09-04T12:15:03.655Z",
  "queues": {
   "exit_eth": 256,
   "exit_wait_days": 0,
-  "entry_eth": 2093340,
-  "entry_wait_days": 36.34,
-  "validators": 905286,
-  "staked_eth": 42680388,
+  "entry_eth": 2110424,
+  "entry_wait_days": 36.64,
+  "validators": 905998,
+  "staked_eth": 42731908,
   "apr": 2.6
  },
  "flows": {
-  "new_stake_eth": 1928753,
-  "internal_eth": 164832
+  "new_stake_eth": 1920526,
+  "internal_eth": 171784
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1163836,
-   "share_pct": 55.6,
-   "items": 11259
+   "eth": 1211473,
+   "share_pct": 57.9,
+   "items": 11683
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 500576,
-   "share_pct": 23.9,
-   "items": 15643
+   "eth": 453888,
+   "share_pct": 21.7,
+   "items": 14184
   },
   {
    "entity": "Binance",
@@ -39,16 +39,16 @@
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 142125,
-   "share_pct": 6.8,
-   "items": 119
+   "eth": 139528,
+   "share_pct": 6.7,
+   "items": 116
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
-   "eth": 66535,
-   "share_pct": 3.2,
-   "items": 54
+   "eth": 65225,
+   "share_pct": 3.1,
+   "items": 48
   },
   {
    "entity": "labeled individual",
@@ -60,9 +60,9 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 16704,
-   "share_pct": 0.8,
-   "items": 522
+   "eth": 18272,
+   "share_pct": 0.9,
+   "items": 571
   },
   {
    "entity": "Kraken",
@@ -74,16 +74,16 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 4320,
+   "eth": 4352,
    "share_pct": 0.2,
-   "items": 135
+   "items": 136
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 4033,
+   "eth": 4116,
    "share_pct": 0.2,
-   "items": 55
+   "items": 56
   },
   {
    "entity": "Figment",
@@ -137,9 +137,9 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2093585,
-  "exit_eth": 800,
-  "vq_entry_eth": 2093340,
+  "entry_eth": 2092310,
+  "exit_eth": 0,
+  "vq_entry_eth": 2110424,
   "vq_exit_eth": 256,
   "flagged": false
  },
