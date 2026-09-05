@@ -1,6 +1,6 @@
 {
  "date": "2026-09-05",
- "generated_at": "2026-09-05T12:00:36.474Z",
+ "generated_at": "2026-09-05T12:15:02.680Z",
  "queues": {
   "exit_eth": 1984,
   "exit_wait_days": 0.03,
@@ -11,23 +11,23 @@
   "apr": 2.6
  },
  "flows": {
-  "new_stake_eth": 1899160,
+  "new_stake_eth": 1898680,
   "internal_eth": 169141
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1229430,
-   "share_pct": 59.4,
-   "items": 11813
+   "eth": 1229462,
+   "share_pct": 59.5,
+   "items": 11814
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 409344,
+   "eth": 408832,
    "share_pct": 19.8,
-   "items": 12792
+   "items": 12776
   },
   {
    "entity": "Binance",
@@ -137,8 +137,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2068301,
-  "exit_eth": 0,
+  "entry_eth": 2067821,
+  "exit_eth": 36,
   "vq_entry_eth": 2087651,
   "vq_exit_eth": 1984,
   "flagged": false
