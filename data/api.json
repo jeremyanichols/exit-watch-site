@@ -1,47 +1,47 @@
 {
- "date": "2026-09-05",
- "generated_at": "2026-09-05T12:15:02.680Z",
+ "date": "2026-09-06",
+ "generated_at": "2026-09-06T12:15:02.894Z",
  "queues": {
-  "exit_eth": 1984,
-  "exit_wait_days": 0.03,
-  "entry_eth": 2087651,
-  "entry_wait_days": 36.24,
-  "validators": 906814,
-  "staked_eth": 42668141,
+  "exit_eth": 352,
+  "exit_wait_days": 0.01,
+  "entry_eth": 2041024,
+  "entry_wait_days": 35.43,
+  "validators": 907830,
+  "staked_eth": 42796737,
   "apr": 2.6
  },
  "flows": {
-  "new_stake_eth": 1898680,
-  "internal_eth": 169141
+  "new_stake_eth": 1862282,
+  "internal_eth": 161580
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1229462,
-   "share_pct": 59.5,
-   "items": 11814
+   "eth": 1213521,
+   "share_pct": 60,
+   "items": 11835
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 408832,
-   "share_pct": 19.8,
-   "items": 12776
+   "eth": 379328,
+   "share_pct": 18.7,
+   "items": 11854
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 160000,
-   "share_pct": 7.7,
+   "share_pct": 7.9,
    "items": 80
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 140144,
-   "share_pct": 6.8,
-   "items": 116
+   "eth": 141930,
+   "share_pct": 7,
+   "items": 117
   },
   {
    "entity": "Kiln",
@@ -60,23 +60,23 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 18368,
+   "eth": 18304,
    "share_pct": 0.9,
-   "items": 574
+   "items": 572
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 5088,
+   "eth": 4992,
    "share_pct": 0.2,
-   "items": 159
+   "items": 156
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 4320,
+   "eth": 4064,
    "share_pct": 0.2,
-   "items": 135
+   "items": 127
   },
   {
    "entity": "Figment",
@@ -88,9 +88,9 @@
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 3838,
+   "eth": 3953,
    "share_pct": 0.2,
-   "items": 56
+   "items": 58
   },
   {
    "entity": "Coinbase",
@@ -137,10 +137,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 2067821,
-  "exit_eth": 36,
-  "vq_entry_eth": 2087651,
-  "vq_exit_eth": 1984,
+  "entry_eth": 2023861,
+  "exit_eth": 0,
+  "vq_entry_eth": 2041024,
+  "vq_exit_eth": 352,
   "flagged": false
  },
  "precision_notes": {
