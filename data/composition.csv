@@ -786,3 +786,20 @@ date,side,entity,category,eth,items,share_pct
 2026-09-09,entry,edmiikk.eth,Solo Staker,0,1,0
 2026-09-09,exit,Bitstamp,CEX,96,3,75
 2026-09-09,exit,(unmapped),,32,1,25
+2026-09-11,entry,(unmapped),,1127872,9547,60.3
+2026-09-11,entry,Lido,Liquid Staking,352448,11014,18.8
+2026-09-11,entry,OKX,CEX,142189,118,7.6
+2026-09-11,entry,Binance,CEX,120000,60,6.4
+2026-09-11,entry,Kiln,Staking Pool,65257,49,3.5
+2026-09-11,entry,Abyss Finance,Batch Staking Contract,20864,652,1.1
+2026-09-11,entry,Upbit,CEX,18464,577,1
+2026-09-11,entry,Kraken,CEX,4864,152,0.3
+2026-09-11,entry,Figment,Staking Pool,4128,129,0.2
+2026-09-11,entry,Revolut,CEX,3744,117,0.2
+2026-09-11,entry,Coinbase,CEX,3584,112,0.2
+2026-09-11,entry,P2P.org,Staking Pool,3205,54,0.2
+2026-09-11,entry,epstrom.eth,Solo Staker,1856,58,0.1
+2026-09-11,entry,stakefish,Staking Pool,1408,44,0.1
+2026-09-11,entry,synergycrypto.eth,Solo Staker,832,1,0
+2026-09-11,entry,CoinEx,CEX,32,1,0
+2026-09-11,entry,edmiikk.eth,Solo Staker,0,1,0
