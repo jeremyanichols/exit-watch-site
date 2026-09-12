@@ -803,8 +803,8 @@ date,side,entity,category,eth,items,share_pct
 2026-09-11,entry,synergycrypto.eth,Solo Staker,832,1,0
 2026-09-11,entry,CoinEx,CEX,32,1,0
 2026-09-11,entry,edmiikk.eth,Solo Staker,0,1,0
-2026-09-12,entry,(unmapped),,1125234,9490,60.4
-2026-09-12,entry,Lido,Liquid Staking,337536,10548,18.1
+2026-09-12,entry,(unmapped),,1125266,9491,60.4
+2026-09-12,entry,Lido,Liquid Staking,337024,10532,18.1
 2026-09-12,entry,OKX,CEX,142145,117,7.6
 2026-09-12,entry,Binance,CEX,120000,60,6.4
 2026-09-12,entry,Kiln,Staking Pool,65257,49,3.5
@@ -820,4 +820,3 @@ date,side,entity,category,eth,items,share_pct
 2026-09-12,entry,synergycrypto.eth,Solo Staker,832,1,0
 2026-09-12,entry,CoinEx,CEX,32,1,0
 2026-09-12,entry,edmiikk.eth,Solo Staker,0,1,0
-2026-09-12,exit,RockX,Staking Pool,32,1,100
