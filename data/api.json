@@ -1,68 +1,68 @@
 {
- "date": "2026-09-12",
- "generated_at": "2026-09-12T12:15:02.901Z",
+ "date": "2026-09-13",
+ "generated_at": "2026-09-13T12:15:03.286Z",
  "queues": {
   "exit_eth": 0,
   "exit_wait_days": 0,
-  "entry_eth": 1879592,
-  "entry_wait_days": 32.63,
-  "validators": 910493,
-  "staked_eth": 43070115,
-  "apr": 2.58
+  "entry_eth": 1835126,
+  "entry_wait_days": 31.86,
+  "validators": 911512,
+  "staked_eth": 43015663,
+  "apr": 2.46
  },
  "flows": {
-  "new_stake_eth": 1690570,
-  "internal_eth": 171709
+  "new_stake_eth": 1643112,
+  "internal_eth": 174687
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1125266,
-   "share_pct": 60.4,
-   "items": 9491
+   "eth": 1093357,
+   "share_pct": 60.1,
+   "items": 9236
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 337024,
-   "share_pct": 18.1,
-   "items": 10532
+   "eth": 324192,
+   "share_pct": 17.8,
+   "items": 10131
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 142145,
-   "share_pct": 7.6,
-   "items": 117
+   "eth": 142502,
+   "share_pct": 7.8,
+   "items": 118
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 120000,
-   "share_pct": 6.4,
+   "share_pct": 6.6,
    "items": 60
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
    "eth": 65257,
-   "share_pct": 3.5,
+   "share_pct": 3.6,
    "items": 49
   },
   {
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
-   "eth": 30560,
-   "share_pct": 1.6,
-   "items": 955
+   "eth": 30464,
+   "share_pct": 1.7,
+   "items": 952
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 18560,
+   "eth": 18720,
    "share_pct": 1,
-   "items": 580
+   "items": 585
   },
   {
    "entity": "Kraken",
@@ -81,9 +81,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 3680,
+   "eth": 3520,
    "share_pct": 0.2,
-   "items": 115
+   "items": 110
   },
   {
    "entity": "Coinbase",
@@ -137,9 +137,9 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1862279,
+  "entry_eth": 1817799,
   "exit_eth": 0,
-  "vq_entry_eth": 1879592,
+  "vq_entry_eth": 1835126,
   "vq_exit_eth": 0,
   "flagged": false
  },
