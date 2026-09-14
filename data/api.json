@@ -1,53 +1,53 @@
 {
- "date": "2026-09-13",
- "generated_at": "2026-09-13T12:15:03.286Z",
+ "date": "2026-09-14",
+ "generated_at": "2026-09-14T12:15:03.253Z",
  "queues": {
   "exit_eth": 0,
   "exit_wait_days": 0,
-  "entry_eth": 1835126,
-  "entry_wait_days": 31.86,
-  "validators": 911512,
-  "staked_eth": 43015663,
+  "entry_eth": 1783270,
+  "entry_wait_days": 30.96,
+  "validators": 911853,
+  "staked_eth": 43135294,
   "apr": 2.46
  },
  "flows": {
-  "new_stake_eth": 1643112,
-  "internal_eth": 174687
+  "new_stake_eth": 1614538,
+  "internal_eth": 172372
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1093357,
-   "share_pct": 60.1,
-   "items": 9236
+   "eth": 1059632,
+   "share_pct": 59.3,
+   "items": 9240
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 324192,
-   "share_pct": 17.8,
-   "items": 10131
+   "eth": 331968,
+   "share_pct": 18.6,
+   "items": 10374
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 142502,
+   "eth": 139432,
    "share_pct": 7.8,
-   "items": 118
+   "items": 114
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 120000,
-   "share_pct": 6.6,
+   "share_pct": 6.7,
    "items": 60
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
    "eth": 65257,
-   "share_pct": 3.6,
+   "share_pct": 3.7,
    "items": 49
   },
   {
@@ -60,9 +60,9 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 18720,
+   "eth": 17440,
    "share_pct": 1,
-   "items": 585
+   "items": 545
   },
   {
    "entity": "Kraken",
@@ -79,13 +79,6 @@
    "items": 128
   },
   {
-   "entity": "Revolut",
-   "category": "CEX",
-   "eth": 3520,
-   "share_pct": 0.2,
-   "items": 110
-  },
-  {
    "entity": "Coinbase",
    "category": "CEX",
    "eth": 3360,
@@ -93,11 +86,18 @@
    "items": 105
   },
   {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 3296,
+   "share_pct": 0.2,
+   "items": 103
+  },
+  {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 3243,
+   "eth": 2877,
    "share_pct": 0.2,
-   "items": 55
+   "items": 53
   },
   {
    "entity": "epstrom.eth",
@@ -137,9 +137,9 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1817799,
-  "exit_eth": 0,
-  "vq_entry_eth": 1835126,
+  "entry_eth": 1786910,
+  "exit_eth": 4875,
+  "vq_entry_eth": 1783270,
   "vq_exit_eth": 0,
   "flagged": false
  },
