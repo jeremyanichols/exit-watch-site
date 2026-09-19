@@ -1,6 +1,6 @@
 {
  "date": "2026-09-19",
- "generated_at": "2026-09-19T12:00:45.354Z",
+ "generated_at": "2026-09-19T12:15:05.580Z",
  "queues": {
   "exit_eth": 76199,
   "exit_wait_days": 1.32,
@@ -11,23 +11,23 @@
   "apr": 2.59
  },
  "flows": {
-  "new_stake_eth": 1636045,
+  "new_stake_eth": 1635802,
   "internal_eth": 171131
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1010007,
+   "eth": 1009879,
    "share_pct": 55.9,
-   "items": 9786
+   "items": 9782
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 377728,
+   "eth": 377696,
    "share_pct": 20.9,
-   "items": 11804
+   "items": 11803
   },
   {
    "entity": "OKX",
@@ -67,9 +67,9 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 16992,
+   "eth": 16960,
    "share_pct": 0.9,
-   "items": 531
+   "items": 530
   },
   {
    "entity": "Kraken",
@@ -88,9 +88,9 @@
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 3305,
+   "eth": 3254,
    "share_pct": 0.2,
-   "items": 65
+   "items": 64
   },
   {
    "entity": "Revolut",
@@ -137,8 +137,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1807177,
-  "exit_eth": 122132,
+  "entry_eth": 1806934,
+  "exit_eth": 122141,
   "vq_entry_eth": 1827465,
   "vq_exit_eth": 76199,
   "flagged": false
