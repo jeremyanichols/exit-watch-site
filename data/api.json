@@ -1,54 +1,54 @@
 {
- "date": "2026-09-23",
- "generated_at": "2026-09-23T12:15:06.687Z",
+ "date": "2026-09-24",
+ "generated_at": "2026-09-24T12:15:08.576Z",
  "queues": {
-  "exit_eth": 149984,
-  "exit_wait_days": 2.6,
-  "entry_eth": 1706847,
-  "entry_wait_days": 29.63,
-  "validators": 900862,
-  "staked_eth": 43150895,
+  "exit_eth": 154144,
+  "exit_wait_days": 2.68,
+  "entry_eth": 1677082,
+  "entry_wait_days": 29.12,
+  "validators": 899111,
+  "staked_eth": 43220679,
   "apr": 2.59
  },
  "flows": {
-  "new_stake_eth": 1519123,
-  "internal_eth": 170951
+  "new_stake_eth": 1488830,
+  "internal_eth": 170156
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1014427,
-   "share_pct": 60,
-   "items": 10172
+   "eth": 1023963,
+   "share_pct": 61.7,
+   "items": 10103
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 319838,
-   "share_pct": 18.9,
-   "items": 9935
+   "eth": 310430,
+   "share_pct": 18.7,
+   "items": 9603
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 116362,
-   "share_pct": 6.9,
-   "items": 95
+   "eth": 113331,
+   "share_pct": 6.8,
+   "items": 92
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 70000,
-   "share_pct": 4.1,
+   "share_pct": 4.2,
    "items": 35
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
-   "eth": 65065,
-   "share_pct": 3.8,
-   "items": 43
+   "eth": 38065,
+   "share_pct": 2.3,
+   "items": 28
   },
   {
    "entity": "Figment",
@@ -60,30 +60,30 @@
   {
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
-   "eth": 34400,
-   "share_pct": 2,
-   "items": 1075
+   "eth": 34240,
+   "share_pct": 2.1,
+   "items": 1070
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 14592,
-   "share_pct": 0.9,
-   "items": 456
+   "eth": 13856,
+   "share_pct": 0.8,
+   "items": 433
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 7328,
+   "eth": 7392,
    "share_pct": 0.4,
-   "items": 229
+   "items": 231
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 5598,
+   "eth": 5565,
    "share_pct": 0.3,
-   "items": 36
+   "items": 35
   },
   {
    "entity": "Coinbase",
@@ -102,15 +102,15 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 1696,
+   "eth": 1376,
    "share_pct": 0.1,
-   "items": 53
+   "items": 43
   },
   {
    "entity": "synergycrypto.eth",
    "category": "Solo Staker",
    "eth": 832,
-   "share_pct": 0,
+   "share_pct": 0.1,
    "items": 1
   },
   {
@@ -137,10 +137,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1690074,
-  "exit_eth": 151584,
-  "vq_entry_eth": 1706847,
-  "vq_exit_eth": 149984,
+  "entry_eth": 1658986,
+  "exit_eth": 155136,
+  "vq_entry_eth": 1677082,
+  "vq_exit_eth": 154144,
   "flagged": false
  },
  "precision_notes": {
