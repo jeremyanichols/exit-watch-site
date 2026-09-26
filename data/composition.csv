@@ -1029,6 +1029,6 @@ date,side,entity,category,eth,items,share_pct
 2026-09-26,entry,CoinEx,CEX,32,1,0
 2026-09-26,entry,stakefish,Staking Pool,32,1,0
 2026-09-26,entry,edmiikk.eth,Solo Staker,0,1,0
-2026-09-26,exit,Lido,Liquid Staking,157032,4906,99.1
+2026-09-26,exit,Lido,Liquid Staking,156232,4881,99.1
 2026-09-26,exit,stakefish,Staking Pool,1088,34,0.7
 2026-09-26,exit,(unmapped),,288,9,0.2
