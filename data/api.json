@@ -1,40 +1,40 @@
 {
- "date": "2026-09-28",
- "generated_at": "2026-09-28T12:15:06.306Z",
+ "date": "2026-09-29",
+ "generated_at": "2026-09-29T12:15:05.010Z",
  "queues": {
-  "exit_eth": 161264,
-  "exit_wait_days": 2.8,
-  "entry_eth": 1596087,
-  "entry_wait_days": 27.71,
-  "validators": 888821,
-  "staked_eth": 43556478,
-  "apr": 2.58
+  "exit_eth": 166042,
+  "exit_wait_days": 2.88,
+  "entry_eth": 1602138,
+  "entry_wait_days": 27.81,
+  "validators": 886707,
+  "staked_eth": 43602127,
+  "apr": 2.61
  },
  "flows": {
-  "new_stake_eth": 1390971,
-  "internal_eth": 192784
+  "new_stake_eth": 1369913,
+  "internal_eth": 227678
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1022152,
-   "share_pct": 64.5,
-   "items": 10059
+   "eth": 1027578,
+   "share_pct": 64.3,
+   "items": 10010
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 282344,
-   "share_pct": 17.8,
-   "items": 8035
+   "eth": 321502,
+   "share_pct": 20.1,
+   "items": 8342
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 134893,
-   "share_pct": 8.5,
-   "items": 109
+   "eth": 104017,
+   "share_pct": 6.5,
+   "items": 88
   },
   {
    "entity": "Binance",
@@ -54,15 +54,15 @@
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
    "eth": 34144,
-   "share_pct": 2.2,
+   "share_pct": 2.1,
    "items": 1067
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 13632,
+   "eth": 13664,
    "share_pct": 0.9,
-   "items": 426
+   "items": 427
   },
   {
    "entity": "Kraken",
@@ -86,18 +86,18 @@
    "items": 158
   },
   {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 1920,
+   "share_pct": 0.1,
+   "items": 60
+  },
+  {
    "entity": "epstrom.eth",
    "category": "Solo Staker",
    "eth": 1856,
    "share_pct": 0.1,
    "items": 58
-  },
-  {
-   "entity": "Revolut",
-   "category": "CEX",
-   "eth": 1792,
-   "share_pct": 0.1,
-   "items": 56
   },
   {
    "entity": "Kiln",
@@ -114,13 +114,6 @@
    "items": 1
   },
   {
-   "entity": "stakefish",
-   "category": "Staking Pool",
-   "eth": 32,
-   "share_pct": 0,
-   "items": 1
-  },
-  {
    "entity": "edmiikk.eth",
    "category": "Solo Staker",
    "eth": 0,
@@ -130,10 +123,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1583755,
-  "exit_eth": 163120,
-  "vq_entry_eth": 1596087,
-  "vq_exit_eth": 161264,
+  "entry_eth": 1597591,
+  "exit_eth": 163451,
+  "vq_entry_eth": 1602138,
+  "vq_exit_eth": 166042,
   "flagged": false
  },
  "precision_notes": {
