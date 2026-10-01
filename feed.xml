@@ -4,7 +4,14 @@
   <link>https://jeremyanichols.github.io/exit-watch-site/</link>
   <description>Statistical surge detection on the Ethereum validator entry and exit queues, cross-checked across two independent sources.</description>
   <language>en-us</language>
-  <lastBuildDate>Wed, 30 Sep 2026 12:15:07 GMT</lastBuildDate>
+  <lastBuildDate>Thu, 01 Oct 2026 12:15:04 GMT</lastBuildDate>
+  <item>
+    <title>Exit queue surge 2026-10-01: +568K ETH (z=36.7)</title>
+    <link>https://jeremyanichols.github.io/exit-watch-site/#events</link>
+    <guid isPermaLink="false">exit-watch-exit_queue-2026-10-01</guid>
+    <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
+    <description>Ethereum validator exit queue absorbed +568,436 ETH on 2026-10-01, 36.7 standard deviations above the trailing 30-day baseline. Queue reached 773,447 ETH. Attribution: unattributed.</description>
+  </item>
   <item>
     <title>Entry queue surge 2026-06-27: +171K ETH (z=6.7)</title>
     <link>https://jeremyanichols.github.io/exit-watch-site/#events</link>
@@ -137,12 +144,5 @@
     <guid isPermaLink="false">exit-watch-exit_queue-2025-05-22</guid>
     <pubDate>Thu, 22 May 2025 12:00:00 GMT</pubDate>
     <description>Ethereum validator exit queue absorbed +85,822 ETH on 2025-05-22, 17.1 standard deviations above the trailing 30-day baseline. Queue reached 88,898 ETH. Attribution: unattributed.</description>
-  </item>
-  <item>
-    <title>Exit queue surge 2025-04-14: +112K ETH (z=4)</title>
-    <link>https://jeremyanichols.github.io/exit-watch-site/#events</link>
-    <guid isPermaLink="false">exit-watch-exit_queue-2025-04-14</guid>
-    <pubDate>Mon, 14 Apr 2025 12:00:00 GMT</pubDate>
-    <description>Ethereum validator exit queue absorbed +111,584 ETH on 2025-04-14, 4 standard deviations above the trailing 30-day baseline. Queue reached 111,712 ETH. Probable: Kraken. Attribution: probable.</description>
   </item>
 </channel></rss>

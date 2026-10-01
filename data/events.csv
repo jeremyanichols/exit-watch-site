@@ -27,3 +27,4 @@ entry_queue,2026-04-24,2026-04-25,3.5,209666,375441,3060262,notable,unattributed
 exit_queue,2026-05-27,2026-05-27,4.8,222131,222131,222195,notable,probable,"Kraken ~69% of exiting cohort (~152,752 ETH est., 7662 validators, wc-direct, src: dune-spellbook labels)"
 exit_queue,2026-06-20,2026-06-20,6.6,345248,345248,383348,major,probable,"Lido ~47% of exiting cohort (~161,785 ETH est., 2403 validators, wc-embedded-depositor, src: dune-spellbook labels)"
 entry_queue,2026-06-27,2026-06-27,6.7,170695,170695,2977812,notable,unattributed,
+exit_queue,2026-10-01,2026-10-01,36.7,568436,568436,773447,major,unattributed,
