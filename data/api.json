@@ -1,46 +1,46 @@
 {
- "date": "2026-10-01",
- "generated_at": "2026-10-01T12:15:04.594Z",
+ "date": "2026-10-02",
+ "generated_at": "2026-10-02T12:15:04.863Z",
  "queues": {
-  "exit_eth": 773447,
-  "exit_wait_days": 13.43,
-  "entry_eth": 1565839,
-  "entry_wait_days": 27.18,
-  "validators": 880414,
-  "staked_eth": 43668267,
+  "exit_eth": 850736,
+  "exit_wait_days": 14.77,
+  "entry_eth": 1576820,
+  "entry_wait_days": 27.38,
+  "validators": 878089,
+  "staked_eth": 43648886,
   "apr": 2.64
  },
  "flows": {
-  "new_stake_eth": 1389054,
-  "internal_eth": 212024
+  "new_stake_eth": 1350164,
+  "internal_eth": 201605
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 1034579,
-   "share_pct": 64.6,
-   "items": 9727
+   "eth": 984470,
+   "share_pct": 63.4,
+   "items": 9770
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 316702,
-   "share_pct": 19.8,
-   "items": 8079
+   "eth": 317438,
+   "share_pct": 20.5,
+   "items": 8102
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 90000,
-   "share_pct": 5.6,
+   "share_pct": 5.8,
    "items": 45
   },
   {
    "entity": "OKX",
    "category": "CEX",
    "eth": 58426,
-   "share_pct": 3.6,
+   "share_pct": 3.8,
    "items": 55
   },
   {
@@ -54,21 +54,21 @@
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
    "eth": 33728,
-   "share_pct": 2.1,
+   "share_pct": 2.2,
    "items": 1054
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 14208,
+   "eth": 14240,
    "share_pct": 0.9,
-   "items": 444
+   "items": 445
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
    "eth": 5554,
-   "share_pct": 0.3,
+   "share_pct": 0.4,
    "items": 48
   },
   {
@@ -88,9 +88,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 1952,
+   "eth": 1984,
    "share_pct": 0.1,
-   "items": 61
+   "items": 62
   },
   {
    "entity": "epstrom.eth",
@@ -116,10 +116,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1601078,
-  "exit_eth": 767960,
-  "vq_entry_eth": 1565839,
-  "vq_exit_eth": 773447,
+  "entry_eth": 1551769,
+  "exit_eth": 830225,
+  "vq_entry_eth": 1576820,
+  "vq_exit_eth": 850736,
   "flagged": false
  },
  "precision_notes": {
