@@ -1159,3 +1159,30 @@ date,side,entity,category,eth,items,share_pct
 2026-10-02,exit,Kiln,Staking Pool,65,2,0
 2026-10-02,exit,Abyss Finance,Batch Staking Contract,32,1,0
 2026-10-02,exit,if-you-own-this-you-are-rich-on.eth,Solo Staker,32,1,0
+2026-10-03,entry,(unmapped),,993956,9766,65.1
+2026-10-03,entry,Lido,Liquid Staking,280766,6956,18.4
+2026-10-03,entry,Binance,CEX,90000,45,5.9
+2026-10-03,entry,OKX,CEX,58077,55,3.8
+2026-10-03,entry,Figment,Staking Pool,34624,1082,2.3
+2026-10-03,entry,Abyss Finance,Batch Staking Contract,33728,1054,2.2
+2026-10-03,entry,Upbit,CEX,14944,467,1
+2026-10-03,entry,Kraken,CEX,6048,189,0.4
+2026-10-03,entry,P2P.org,Staking Pool,5471,46,0.4
+2026-10-03,entry,Coinbase,CEX,5056,158,0.3
+2026-10-03,entry,Revolut,CEX,1984,62,0.1
+2026-10-03,entry,epstrom.eth,Solo Staker,1856,58,0.1
+2026-10-03,entry,CoinEx,CEX,32,1,0
+2026-10-03,entry,Kiln,Staking Pool,32,1,0
+2026-10-03,exit,(unmapped),,351530,8114,44.6
+2026-10-03,exit,Lido,Liquid Staking,338722,10582,43
+2026-10-03,exit,Coinbase,CEX,89367,2792,11.3
+2026-10-03,exit,OKX,CEX,2624,82,0.3
+2026-10-03,exit,Figment,Staking Pool,2337,73,0.3
+2026-10-03,exit,Upbit,CEX,1600,50,0.2
+2026-10-03,exit,Kiln,Staking Pool,677,5,0.1
+2026-10-03,exit,P2P.org,Staking Pool,192,6,0
+2026-10-03,exit,Bitstamp,CEX,160,5,0
+2026-10-03,exit,stakefish,Staking Pool,160,5,0
+2026-10-03,exit,davieli.eth,Solo Staker,128,4,0
+2026-10-03,exit,frankxavier.eth,Solo Staker,32,1,0
+2026-10-03,exit,if-you-own-this-you-are-rich-on.eth,Solo Staker,32,1,0
