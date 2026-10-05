@@ -1,0 +1,130 @@
+{
+ "date": "2026-10-05",
+ "generated_at": "2026-10-05T12:15:06.920Z",
+ "queues": {
+  "exit_eth": 786275,
+  "exit_wait_days": 13.65,
+  "entry_eth": 1457964,
+  "entry_wait_days": 25.31,
+  "validators": 868121,
+  "staked_eth": 43657647,
+  "apr": 2.63
+ },
+ "flows": {
+  "new_stake_eth": 1242245,
+  "internal_eth": 198461
+ },
+ "entry_composition": [
+  {
+   "entity": "(unmapped)",
+   "category": null,
+   "eth": 960532,
+   "share_pct": 66.7,
+   "items": 9298
+  },
+  {
+   "entity": "Lido",
+   "category": "Liquid Staking",
+   "eth": 270622,
+   "share_pct": 18.8,
+   "items": 6639
+  },
+  {
+   "entity": "OKX",
+   "category": "CEX",
+   "eth": 62879,
+   "share_pct": 4.4,
+   "items": 54
+  },
+  {
+   "entity": "Binance",
+   "category": "CEX",
+   "eth": 50000,
+   "share_pct": 3.5,
+   "items": 25
+  },
+  {
+   "entity": "labeled individual",
+   "category": "Batch Staking Contract",
+   "eth": 33696,
+   "share_pct": 2.3,
+   "items": 1053
+  },
+  {
+   "entity": "Figment",
+   "category": "Staking Pool",
+   "eth": 30720,
+   "share_pct": 2.1,
+   "items": 960
+  },
+  {
+   "entity": "Upbit",
+   "category": "CEX",
+   "eth": 13632,
+   "share_pct": 0.9,
+   "items": 426
+  },
+  {
+   "entity": "P2P.org",
+   "category": "Staking Pool",
+   "eth": 5438,
+   "share_pct": 0.4,
+   "items": 45
+  },
+  {
+   "entity": "Kraken",
+   "category": "CEX",
+   "eth": 5312,
+   "share_pct": 0.4,
+   "items": 166
+  },
+  {
+   "entity": "Coinbase",
+   "category": "CEX",
+   "eth": 5056,
+   "share_pct": 0.4,
+   "items": 158
+  },
+  {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 2688,
+   "share_pct": 0.2,
+   "items": 84
+  },
+  {
+   "entity": "wzhao.eth",
+   "category": "Solo Staker",
+   "eth": 66,
+   "share_pct": 0,
+   "items": 1
+  },
+  {
+   "entity": "CoinEx",
+   "category": "CEX",
+   "eth": 32,
+   "share_pct": 0,
+   "items": 1
+  },
+  {
+   "entity": "Kiln",
+   "category": "Staking Pool",
+   "eth": 32,
+   "share_pct": 0,
+   "items": 1
+  }
+ ],
+ "crosscheck": {
+  "source": "beacon:publicnode",
+  "entry_eth": 1440705,
+  "exit_eth": 767887,
+  "vq_entry_eth": 1457964,
+  "vq_exit_eth": 786275,
+  "flagged": false
+ },
+ "precision_notes": {
+  "queues": "exact (validatorqueue.com daily close, cross-checked)",
+  "entry_composition_eth": "exact sums of pending deposit amounts by mapped credential",
+  "attribution": "probable — label-based, see methodology"
+ }
+}
