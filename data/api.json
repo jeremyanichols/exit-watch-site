@@ -1,33 +1,33 @@
 {
- "date": "2026-10-09",
- "generated_at": "2026-10-09T12:15:09.550Z",
+ "date": "2026-10-10",
+ "generated_at": "2026-10-10T12:15:06.401Z",
  "queues": {
-  "exit_eth": 817231,
-  "exit_wait_days": 14.19,
-  "entry_eth": 1397669,
-  "entry_wait_days": 24.27,
-  "validators": 854419,
-  "staked_eth": 43655042,
+  "exit_eth": 894327,
+  "exit_wait_days": 15.53,
+  "entry_eth": 1400242,
+  "entry_wait_days": 24.31,
+  "validators": 852649,
+  "staked_eth": 43679166,
   "apr": 2.6
  },
  "flows": {
-  "new_stake_eth": 1163688,
-  "internal_eth": 221117
+  "new_stake_eth": 1154052,
+  "internal_eth": 218993
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 935612,
-   "share_pct": 67.6,
-   "items": 9265
+   "eth": 923776,
+   "share_pct": 67.3,
+   "items": 9159
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 248862,
-   "share_pct": 18,
-   "items": 5959
+   "eth": 252350,
+   "share_pct": 18.4,
+   "items": 6068
   },
   {
    "entity": "OKX",
@@ -60,9 +60,9 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 13504,
-   "share_pct": 1,
-   "items": 422
+   "eth": 12064,
+   "share_pct": 0.9,
+   "items": 377
   },
   {
    "entity": "Kraken",
@@ -74,23 +74,23 @@
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 5415,
+   "eth": 5364,
    "share_pct": 0.4,
    "items": 45
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
-   "eth": 5024,
-   "share_pct": 0.4,
-   "items": 157
+   "eth": 2976,
+   "share_pct": 0.2,
+   "items": 93
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 2560,
+   "eth": 2688,
    "share_pct": 0.2,
-   "items": 80
+   "items": 84
   },
   {
    "entity": "Kiln",
@@ -116,10 +116,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1384805,
-  "exit_eth": 883906,
-  "vq_entry_eth": 1397669,
-  "vq_exit_eth": 817231,
+  "entry_eth": 1373045,
+  "exit_eth": 959314,
+  "vq_entry_eth": 1400242,
+  "vq_exit_eth": 894327,
   "flagged": false
  },
  "precision_notes": {
