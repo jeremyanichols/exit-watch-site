@@ -4,13 +4,13 @@
   <link>https://jeremyanichols.github.io/exit-watch-site/</link>
   <description>Statistical surge detection on the Ethereum validator entry and exit queues, cross-checked across two independent sources.</description>
   <language>en-us</language>
-  <lastBuildDate>Sat, 10 Oct 2026 12:15:06 GMT</lastBuildDate>
+  <lastBuildDate>Sat, 10 Oct 2026 13:08:35 GMT</lastBuildDate>
   <item>
     <title>Exit queue surge 2026-10-01: +568K ETH (z=36.7)</title>
     <link>https://jeremyanichols.github.io/exit-watch-site/#events</link>
     <guid isPermaLink="false">exit-watch-exit_queue-2026-10-01</guid>
     <pubDate>Thu, 01 Oct 2026 12:00:00 GMT</pubDate>
-    <description>Ethereum validator exit queue absorbed +568,436 ETH on 2026-10-01, 36.7 standard deviations above the trailing 30-day baseline. Queue reached 773,447 ETH. Attribution: unattributed.</description>
+    <description>Ethereum validator exit queue absorbed +568,436 ETH on 2026-10-01, 36.7 standard deviations above the trailing 30-day baseline. Queue reached 773,447 ETH. Probable: Lido. Attribution: probable.</description>
   </item>
   <item>
     <title>Entry queue surge 2026-06-27: +171K ETH (z=6.7)</title>
