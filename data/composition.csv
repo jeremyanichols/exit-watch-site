@@ -1397,3 +1397,33 @@ date,side,entity,category,eth,items,share_pct
 2026-10-11,exit,dougcastoldi.eth,Solo Staker,96,3,0
 2026-10-11,exit,frankxavier.eth,Solo Staker,32,1,0
 2026-10-11,exit,jspaceman.eth,Solo Staker,32,1,0
+2026-10-12,entry,(unmapped),,838333,8226,65.8
+2026-10-12,entry,Lido,Liquid Staking,245790,5863,19.3
+2026-10-12,entry,OKX,CEX,69215,58,5.4
+2026-10-12,entry,Binance,CEX,50000,25,3.9
+2026-10-12,entry,Figment,Staking Pool,30784,962,2.4
+2026-10-12,entry,Abyss Finance,Batch Staking Contract,13696,428,1.1
+2026-10-12,entry,Upbit,CEX,10560,330,0.8
+2026-10-12,entry,Kraken,CEX,5728,179,0.4
+2026-10-12,entry,P2P.org,Staking Pool,4944,38,0.4
+2026-10-12,entry,Revolut,CEX,2496,78,0.2
+2026-10-12,entry,Coinbase,CEX,1824,57,0.1
+2026-10-12,entry,wzhao.eth,Solo Staker,66,1,0
+2026-10-12,entry,Kiln,Staking Pool,43,1,0
+2026-10-12,entry,Blockdaemon,Staking Pool,32,1,0
+2026-10-12,exit,Lido,Liquid Staking,427379,13352,48.6
+2026-10-12,exit,(unmapped),,390237,4693,44.3
+2026-10-12,exit,OKX,CEX,28164,880,3.2
+2026-10-12,exit,Figment,Staking Pool,20134,629,2.3
+2026-10-12,exit,Abyss Finance,Batch Staking Contract,4766,149,0.5
+2026-10-12,exit,Coinbase,CEX,3649,114,0.4
+2026-10-12,exit,Upbit,CEX,2593,81,0.3
+2026-10-12,exit,Blockdaemon,Staking Pool,992,31,0.1
+2026-10-12,exit,Kiln,Staking Pool,740,7,0.1
+2026-10-12,exit,P2P.org,Staking Pool,717,8,0.1
+2026-10-12,exit,Revolut,CEX,192,6,0
+2026-10-12,exit,stakefish,Staking Pool,160,5,0
+2026-10-12,exit,Bitstamp,CEX,128,4,0
+2026-10-12,exit,dougcastoldi.eth,Solo Staker,96,3,0
+2026-10-12,exit,CoinEx,CEX,32,1,0
+2026-10-12,exit,jspaceman.eth,Solo Staker,32,1,0
