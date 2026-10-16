@@ -1,40 +1,40 @@
 {
- "date": "2026-10-15",
- "generated_at": "2026-10-15T12:15:07.235Z",
+ "date": "2026-10-16",
+ "generated_at": "2026-10-16T12:15:04.578Z",
  "queues": {
-  "exit_eth": 978751,
-  "exit_wait_days": 16.99,
-  "entry_eth": 1282776,
-  "entry_wait_days": 22.27,
-  "validators": 835919,
-  "staked_eth": 43673126,
+  "exit_eth": 1030696,
+  "exit_wait_days": 17.89,
+  "entry_eth": 1292455,
+  "entry_wait_days": 22.44,
+  "validators": 834645,
+  "staked_eth": 43618090,
   "apr": 2.58
  },
  "flows": {
-  "new_stake_eth": 1087423,
-  "internal_eth": 188597
+  "new_stake_eth": 1096101,
+  "internal_eth": 194452
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 832219,
-   "share_pct": 65.2,
-   "items": 9069
+   "eth": 845688,
+   "share_pct": 65.5,
+   "items": 9728
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 265374,
-   "share_pct": 20.8,
-   "items": 6475
+   "eth": 252958,
+   "share_pct": 19.6,
+   "items": 6087
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 69300,
-   "share_pct": 5.4,
-   "items": 58
+   "eth": 75245,
+   "share_pct": 5.8,
+   "items": 63
   },
   {
    "entity": "Binance",
@@ -51,39 +51,39 @@
    "items": 957
   },
   {
+   "entity": "Coinbase",
+   "category": "CEX",
+   "eth": 11936,
+   "share_pct": 0.9,
+   "items": 373
+  },
+  {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 9632,
+   "eth": 9856,
    "share_pct": 0.8,
-   "items": 301
+   "items": 308
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 5600,
+   "eth": 5568,
    "share_pct": 0.4,
-   "items": 175
+   "items": 174
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 4906,
+   "eth": 4857,
    "share_pct": 0.4,
-   "items": 37
-  },
-  {
-   "entity": "Coinbase",
-   "category": "CEX",
-   "eth": 4672,
-   "share_pct": 0.4,
-   "items": 146
+   "items": 36
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 2912,
+   "eth": 3040,
    "share_pct": 0.2,
-   "items": 91
+   "items": 95
   },
   {
    "entity": "labeled individual",
@@ -116,10 +116,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1276020,
-  "exit_eth": 1006144,
-  "vq_entry_eth": 1282776,
-  "vq_exit_eth": 978751,
+  "entry_eth": 1290553,
+  "exit_eth": 1003818,
+  "vq_entry_eth": 1292455,
+  "vq_exit_eth": 1030696,
   "flagged": false
  },
  "precision_notes": {
