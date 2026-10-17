@@ -1,6 +1,6 @@
 {
  "date": "2026-10-17",
- "generated_at": "2026-10-17T12:15:03.378Z",
+ "generated_at": "2026-10-17T14:50:13.496Z",
  "queues": {
   "exit_eth": 965887,
   "exit_wait_days": 16.77,
@@ -11,29 +11,29 @@
   "apr": 2.57
  },
  "flows": {
-  "new_stake_eth": 1083649,
+  "new_stake_eth": 1077601,
   "internal_eth": 204051
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 810846,
-   "share_pct": 63,
-   "items": 9631
+   "eth": 810942,
+   "share_pct": 63.3,
+   "items": 9634
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 266654,
-   "share_pct": 20.7,
-   "items": 6515
+   "eth": 260510,
+   "share_pct": 20.3,
+   "items": 6323
   },
   {
    "entity": "OKX",
    "category": "CEX",
    "eth": 89376,
-   "share_pct": 6.9,
+   "share_pct": 7,
    "items": 72
   },
   {
@@ -123,8 +123,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1287700,
-  "exit_eth": 921618,
+  "entry_eth": 1281652,
+  "exit_eth": 906928,
   "vq_entry_eth": 1291577,
   "vq_exit_eth": 965887,
   "flagged": false
