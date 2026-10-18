@@ -1586,3 +1586,36 @@ date,side,entity,category,eth,items,share_pct
 2026-10-17,exit,CoinEx,CEX,32,1,0
 2026-10-17,exit,jspaceman.eth,Solo Staker,32,1,0
 2026-10-17,exit,m1r4c13.eth,Solo Staker,32,1,0
+2026-10-18,entry,(unmapped),,805371,9754,64.3
+2026-10-18,entry,Lido,Liquid Staking,251614,6045,20.1
+2026-10-18,entry,OKX,CEX,92919,75,7.4
+2026-10-18,entry,Binance,CEX,50000,25,4
+2026-10-18,entry,Coinbase,CEX,13664,427,1.1
+2026-10-18,entry,Figment,Staking Pool,12768,399,1
+2026-10-18,entry,Upbit,CEX,9760,305,0.8
+2026-10-18,entry,Kraken,CEX,5504,172,0.4
+2026-10-18,entry,P2P.org,Staking Pool,4740,33,0.4
+2026-10-18,entry,Revolut,CEX,3136,98,0.3
+2026-10-18,entry,Bitbank,CEX,2380,3,0.2
+2026-10-18,entry,Abyss Finance,Batch Staking Contract,608,19,0
+2026-10-18,entry,wzhao.eth,Solo Staker,66,1,0
+2026-10-18,entry,Blockdaemon,Staking Pool,64,2,0
+2026-10-18,entry,Kiln,Staking Pool,43,1,0
+2026-10-18,exit,(unmapped),,488114,1695,54.1
+2026-10-18,exit,Lido,Liquid Staking,278672,8706,30.9
+2026-10-18,exit,Renzo,Liquid Restaking,39690,1240,4.4
+2026-10-18,exit,stakefish,Staking Pool,24707,772,2.7
+2026-10-18,exit,Kraken,CEX,24115,43,2.7
+2026-10-18,exit,OKX,CEX,16001,500,1.8
+2026-10-18,exit,P2P.org,Staking Pool,15543,478,1.7
+2026-10-18,exit,Figment,Staking Pool,4866,152,0.5
+2026-10-18,exit,Abyss Finance,Batch Staking Contract,3041,95,0.3
+2026-10-18,exit,Upbit,CEX,2368,74,0.3
+2026-10-18,exit,Coinbase,CEX,1760,55,0.2
+2026-10-18,exit,Puffer Finance,Liquid Restaking,1600,50,0.2
+2026-10-18,exit,Blockdaemon,Staking Pool,1472,46,0.2
+2026-10-18,exit,Kiln,Staking Pool,643,4,0.1
+2026-10-18,exit,Bitstamp,CEX,128,4,0
+2026-10-18,exit,Revolut,CEX,64,2,0
+2026-10-18,exit,CoinEx,CEX,32,1,0
+2026-10-18,exit,m1r4c13.eth,Solo Staker,32,1,0
