@@ -1651,3 +1651,33 @@ date,side,entity,category,eth,items,share_pct
 2026-10-19,exit,Bitstamp,CEX,96,3,0
 2026-10-19,exit,Revolut,CEX,96,3,0
 2026-10-19,exit,m1r4c13.eth,Solo Staker,32,1,0
+2026-10-20,entry,(unmapped),,764413,9463,66
+2026-10-20,entry,Lido,Liquid Staking,210334,4755,18.2
+2026-10-20,entry,OKX,CEX,93269,74,8.1
+2026-10-20,entry,Binance,CEX,50000,25,4.3
+2026-10-20,entry,Coinbase,CEX,14656,458,1.3
+2026-10-20,entry,Upbit,CEX,8832,276,0.8
+2026-10-20,entry,Kraken,CEX,5504,172,0.5
+2026-10-20,entry,P2P.org,Staking Pool,4276,23,0.4
+2026-10-20,entry,Revolut,CEX,3264,102,0.3
+2026-10-20,entry,Bitbank,CEX,2380,3,0.2
+2026-10-20,entry,Abyss Finance,Batch Staking Contract,608,19,0.1
+2026-10-20,entry,wzhao.eth,Solo Staker,66,1,0
+2026-10-20,entry,Blockdaemon,Staking Pool,64,2,0
+2026-10-20,entry,Figment,Staking Pool,64,2,0
+2026-10-20,entry,Kiln,Staking Pool,43,1,0
+2026-10-20,exit,(unmapped),,471870,1097,65
+2026-10-20,exit,Lido,Liquid Staking,191569,5985,26.4
+2026-10-20,exit,Renzo,Liquid Restaking,39688,1240,5.5
+2026-10-20,exit,P2P.org,Staking Pool,15208,474,2.1
+2026-10-20,exit,OKX,CEX,2336,73,0.3
+2026-10-20,exit,Blockdaemon,Staking Pool,1472,46,0.2
+2026-10-20,exit,Abyss Finance,Batch Staking Contract,1408,44,0.2
+2026-10-20,exit,stakefish,Staking Pool,832,26,0.1
+2026-10-20,exit,Upbit,CEX,768,24,0.1
+2026-10-20,exit,Figment,Staking Pool,224,7,0
+2026-10-20,exit,Coinbase,CEX,192,6,0
+2026-10-20,exit,rumpf.eth,Solo Staker,192,6,0
+2026-10-20,exit,Bitstamp,CEX,96,3,0
+2026-10-20,exit,Revolut,CEX,96,3,0
+2026-10-20,exit,Kiln,Staking Pool,64,2,0
