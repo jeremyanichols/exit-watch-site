@@ -1,0 +1,144 @@
+{
+ "date": "2026-10-24",
+ "generated_at": "2026-10-24T12:13:38.983Z",
+ "queues": {
+  "exit_eth": 457584,
+  "exit_wait_days": 7.94,
+  "entry_eth": 1356466,
+  "entry_wait_days": 23.55,
+  "validators": 819595,
+  "staked_eth": 43698491,
+  "apr": 2.55
+ },
+ "flows": {
+  "new_stake_eth": 1146083,
+  "internal_eth": 197116
+ },
+ "entry_composition": [
+  {
+   "entity": "(unmapped)",
+   "category": null,
+   "eth": 886144,
+   "share_pct": 66,
+   "items": 11954
+  },
+  {
+   "entity": "Lido",
+   "category": "Liquid Staking",
+   "eth": 165818,
+   "share_pct": 12.3,
+   "items": 3817
+  },
+  {
+   "entity": "Binance",
+   "category": "CEX",
+   "eth": 130000,
+   "share_pct": 9.7,
+   "items": 65
+  },
+  {
+   "entity": "OKX",
+   "category": "CEX",
+   "eth": 113035,
+   "share_pct": 8.4,
+   "items": 87
+  },
+  {
+   "entity": "Coinbase",
+   "category": "CEX",
+   "eth": 15008,
+   "share_pct": 1.1,
+   "items": 469
+  },
+  {
+   "entity": "Upbit",
+   "category": "CEX",
+   "eth": 9184,
+   "share_pct": 0.7,
+   "items": 287
+  },
+  {
+   "entity": "Kraken",
+   "category": "CEX",
+   "eth": 7488,
+   "share_pct": 0.6,
+   "items": 234
+  },
+  {
+   "entity": "P2P.org",
+   "category": "Staking Pool",
+   "eth": 5073,
+   "share_pct": 0.4,
+   "items": 23
+  },
+  {
+   "entity": "stakefish",
+   "category": "Staking Pool",
+   "eth": 4480,
+   "share_pct": 0.3,
+   "items": 140
+  },
+  {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 3488,
+   "share_pct": 0.3,
+   "items": 109
+  },
+  {
+   "entity": "Bitbank",
+   "category": "CEX",
+   "eth": 2380,
+   "share_pct": 0.2,
+   "items": 3
+  },
+  {
+   "entity": "labeled individual",
+   "category": "Batch Staking Contract",
+   "eth": 672,
+   "share_pct": 0.1,
+   "items": 21
+  },
+  {
+   "entity": "Figment",
+   "category": "Staking Pool",
+   "eth": 256,
+   "share_pct": 0,
+   "items": 8
+  },
+  {
+   "entity": "wzhao.eth",
+   "category": "Solo Staker",
+   "eth": 66,
+   "share_pct": 0,
+   "items": 1
+  },
+  {
+   "entity": "Blockdaemon",
+   "category": "Staking Pool",
+   "eth": 64,
+   "share_pct": 0,
+   "items": 2
+  },
+  {
+   "entity": "Kiln",
+   "category": "Staking Pool",
+   "eth": 43,
+   "share_pct": 0,
+   "items": 1
+  }
+ ],
+ "crosscheck": {
+  "source": "beacon:publicnode",
+  "entry_eth": 1343199,
+  "exit_eth": 423400,
+  "vq_entry_eth": 1356466,
+  "vq_exit_eth": 457584,
+  "flagged": false
+ },
+ "precision_notes": {
+  "queues": "exact (validatorqueue.com daily close, cross-checked)",
+  "entry_composition_eth": "exact sums of pending deposit amounts by mapped credential",
+  "attribution": "probable — label-based, see methodology"
+ }
+}
