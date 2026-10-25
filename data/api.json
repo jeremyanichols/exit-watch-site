@@ -1,53 +1,53 @@
 {
- "date": "2026-10-24",
- "generated_at": "2026-10-24T12:15:03.100Z",
+ "date": "2026-10-25",
+ "generated_at": "2026-10-25T12:15:03.227Z",
  "queues": {
-  "exit_eth": 457584,
-  "exit_wait_days": 7.94,
-  "entry_eth": 1356466,
-  "entry_wait_days": 23.55,
-  "validators": 819595,
-  "staked_eth": 43698491,
+  "exit_eth": 364665,
+  "exit_wait_days": 6.33,
+  "entry_eth": 1309352,
+  "entry_wait_days": 22.73,
+  "validators": 819745,
+  "staked_eth": 43733377,
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 1146083,
-  "internal_eth": 197116
+  "new_stake_eth": 1112524,
+  "internal_eth": 184214
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 886144,
-   "share_pct": 66,
-   "items": 11954
+   "eth": 868809,
+   "share_pct": 67,
+   "items": 11733
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 165818,
-   "share_pct": 12.3,
-   "items": 3817
+   "eth": 145334,
+   "share_pct": 11.2,
+   "items": 3512
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 130000,
-   "share_pct": 9.7,
+   "share_pct": 10,
    "items": 65
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 113035,
-   "share_pct": 8.4,
-   "items": 87
+   "eth": 104554,
+   "share_pct": 8.1,
+   "items": 81
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
    "eth": 15008,
-   "share_pct": 1.1,
+   "share_pct": 1.2,
    "items": 469
   },
   {
@@ -67,9 +67,9 @@
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 5073,
+   "eth": 5040,
    "share_pct": 0.4,
-   "items": 23
+   "items": 22
   },
   {
    "entity": "stakefish",
@@ -81,9 +81,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 3488,
+   "eth": 3328,
    "share_pct": 0.3,
-   "items": 109
+   "items": 104
   },
   {
    "entity": "Bitbank",
@@ -95,9 +95,9 @@
   {
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
-   "eth": 672,
+   "eth": 704,
    "share_pct": 0.1,
-   "items": 21
+   "items": 22
   },
   {
    "entity": "Figment",
@@ -130,10 +130,10 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1343199,
-  "exit_eth": 423400,
-  "vq_entry_eth": 1356466,
-  "vq_exit_eth": 457584,
+  "entry_eth": 1296738,
+  "exit_eth": 335704,
+  "vq_entry_eth": 1309352,
+  "vq_exit_eth": 364665,
   "flagged": false
  },
  "precision_notes": {
