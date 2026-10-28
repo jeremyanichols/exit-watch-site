@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-27T12:15:03.093Z",
+ "generated_at": "2026-10-28T12:15:02.915Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,30 +11,30 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 1157698,
-  "internal_eth": 154750
+  "new_stake_eth": 1125255,
+  "internal_eth": 173423
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 868279,
-   "share_pct": 66.2,
-   "items": 11730
-  },
-  {
-   "entity": "Binance",
-   "category": "CEX",
-   "eth": 130000,
-   "share_pct": 9.9,
-   "items": 65
+   "eth": 862410,
+   "share_pct": 66.4,
+   "items": 11835
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 109280,
-   "share_pct": 8.3,
-   "items": 3224
+   "eth": 130720,
+   "share_pct": 10.1,
+   "items": 3263
+  },
+  {
+   "entity": "Binance",
+   "category": "CEX",
+   "eth": 100000,
+   "share_pct": 7.7,
+   "items": 50
   },
   {
    "entity": "OKX",
@@ -67,9 +67,9 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 10752,
+   "eth": 10816,
    "share_pct": 0.8,
-   "items": 336
+   "items": 338
   },
   {
    "entity": "Kraken",
@@ -88,9 +88,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 3424,
+   "eth": 3456,
    "share_pct": 0.3,
-   "items": 107
+   "items": 108
   },
   {
    "entity": "Bitbank",
@@ -107,6 +107,13 @@
    "items": 23
   },
   {
+   "entity": "Kiln",
+   "category": "Staking Pool",
+   "eth": 605,
+   "share_pct": 0,
+   "items": 2
+  },
+  {
    "entity": "wzhao.eth",
    "category": "Solo Staker",
    "eth": 66,
@@ -119,19 +126,12 @@
    "eth": 64,
    "share_pct": 0,
    "items": 2
-  },
-  {
-   "entity": "Kiln",
-   "category": "Staking Pool",
-   "eth": 43,
-   "share_pct": 0,
-   "items": 1
   }
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1312448,
-  "exit_eth": 181711,
+  "entry_eth": 1298678,
+  "exit_eth": 68666,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
