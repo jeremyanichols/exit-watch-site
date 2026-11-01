@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-10-31T12:15:03.117Z",
+ "generated_at": "2026-11-01T13:15:03.570Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,79 +11,79 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 1029791,
-  "internal_eth": 169047
+  "new_stake_eth": 1004436,
+  "internal_eth": 143859
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 790306,
-   "share_pct": 65.9,
-   "items": 11556
+   "eth": 747067,
+   "share_pct": 65.1,
+   "items": 11201
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 141088,
-   "share_pct": 11.8,
-   "items": 3218
+   "eth": 136512,
+   "share_pct": 11.9,
+   "items": 3075
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 80000,
-   "share_pct": 6.7,
+   "share_pct": 7,
    "items": 40
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 77898,
+   "eth": 74915,
    "share_pct": 6.5,
-   "items": 63
+   "items": 61
   },
   {
    "entity": "Figment",
    "category": "Staking Pool",
    "eth": 46848,
-   "share_pct": 3.9,
+   "share_pct": 4.1,
    "items": 1464
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 19600,
-   "share_pct": 1.6,
-   "items": 26
+   "eth": 19280,
+   "share_pct": 1.7,
+   "items": 25
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
    "eth": 17856,
-   "share_pct": 1.5,
+   "share_pct": 1.6,
    "items": 558
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 10912,
-   "share_pct": 0.9,
-   "items": 341
+   "eth": 11360,
+   "share_pct": 1,
+   "items": 355
   },
   {
    "entity": "Kraken",
    "category": "CEX",
    "eth": 5216,
-   "share_pct": 0.4,
+   "share_pct": 0.5,
    "items": 163
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 3104,
+   "eth": 3232,
    "share_pct": 0.3,
-   "items": 97
+   "items": 101
   },
   {
    "entity": "Bitbank",
@@ -123,8 +123,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1198838,
-  "exit_eth": 224,
+  "entry_eth": 1148295,
+  "exit_eth": 288,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
