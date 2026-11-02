@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-01T13:15:03.570Z",
+ "generated_at": "2026-11-02T13:15:03.121Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,79 +11,79 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 1004436,
-  "internal_eth": 143859
+  "new_stake_eth": 971245,
+  "internal_eth": 137248
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 747067,
-   "share_pct": 65.1,
-   "items": 11201
+   "eth": 720381,
+   "share_pct": 65,
+   "items": 10922
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 136512,
-   "share_pct": 11.9,
-   "items": 3075
+   "eth": 115648,
+   "share_pct": 10.4,
+   "items": 2421
+  },
+  {
+   "entity": "OKX",
+   "category": "CEX",
+   "eth": 82916,
+   "share_pct": 7.5,
+   "items": 66
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 80000,
-   "share_pct": 7,
+   "share_pct": 7.2,
    "items": 40
-  },
-  {
-   "entity": "OKX",
-   "category": "CEX",
-   "eth": 74915,
-   "share_pct": 6.5,
-   "items": 61
   },
   {
    "entity": "Figment",
    "category": "Staking Pool",
-   "eth": 46848,
-   "share_pct": 4.1,
-   "items": 1464
+   "eth": 46752,
+   "share_pct": 4.2,
+   "items": 1461
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 19280,
-   "share_pct": 1.7,
-   "items": 25
+   "eth": 19410,
+   "share_pct": 1.8,
+   "items": 26
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
-   "eth": 17856,
+   "eth": 17728,
    "share_pct": 1.6,
-   "items": 558
+   "items": 554
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 11360,
+   "eth": 11456,
    "share_pct": 1,
-   "items": 355
+   "items": 358
   },
   {
    "entity": "Kraken",
    "category": "CEX",
-   "eth": 5216,
+   "eth": 5152,
    "share_pct": 0.5,
-   "items": 163
+   "items": 161
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 3232,
+   "eth": 3040,
    "share_pct": 0.3,
-   "items": 101
+   "items": 95
   },
   {
    "entity": "Bitbank",
@@ -123,8 +123,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1148295,
-  "exit_eth": 288,
+  "entry_eth": 1108492,
+  "exit_eth": 96,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
