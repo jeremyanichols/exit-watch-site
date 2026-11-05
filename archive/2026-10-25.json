@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-04T13:15:02.839Z",
+ "generated_at": "2026-11-05T13:15:03.008Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,30 +11,30 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 906454,
-  "internal_eth": 133694
+  "new_stake_eth": 873725,
+  "internal_eth": 159528
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 642231,
-   "share_pct": 61.7,
-   "items": 10241
-  },
-  {
-   "entity": "Lido",
-   "category": "Liquid Staking",
-   "eth": 106432,
-   "share_pct": 10.2,
-   "items": 2073
+   "eth": 632820,
+   "share_pct": 61.2,
+   "items": 9901
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 93634,
-   "share_pct": 9,
-   "items": 72
+   "eth": 100113,
+   "share_pct": 9.7,
+   "items": 77
+  },
+  {
+   "entity": "Lido",
+   "category": "Liquid Staking",
+   "eth": 96542,
+   "share_pct": 9.3,
+   "items": 993
   },
   {
    "entity": "Binance",
@@ -46,30 +46,30 @@
   {
    "entity": "Figment",
    "category": "Staking Pool",
-   "eth": 46752,
-   "share_pct": 4.5,
-   "items": 1461
+   "eth": 47488,
+   "share_pct": 4.6,
+   "items": 1484
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
-   "eth": 23840,
-   "share_pct": 2.3,
-   "items": 745
+   "eth": 27040,
+   "share_pct": 2.6,
+   "items": 845
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 18953,
-   "share_pct": 1.8,
-   "items": 24
+   "eth": 19505,
+   "share_pct": 1.9,
+   "items": 26
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 11488,
-   "share_pct": 1.1,
-   "items": 359
+   "eth": 12512,
+   "share_pct": 1.2,
+   "items": 391
   },
   {
    "entity": "Kiln",
@@ -102,15 +102,29 @@
   {
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
-   "eth": 864,
+   "eth": 896,
    "share_pct": 0.1,
-   "items": 27
+   "items": 28
+  },
+  {
+   "entity": "stakefish",
+   "category": "Staking Pool",
+   "eth": 384,
+   "share_pct": 0,
+   "items": 12
+  },
+  {
+   "entity": "109-110.eth",
+   "category": "Solo Staker",
+   "eth": 0,
+   "share_pct": 0,
+   "items": 1
   }
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1040148,
-  "exit_eth": 29457,
+  "entry_eth": 1033253,
+  "exit_eth": 8781,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
