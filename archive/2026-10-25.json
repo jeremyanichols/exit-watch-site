@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-05T13:15:03.008Z",
+ "generated_at": "2026-11-06T13:15:03.293Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,72 +11,72 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 873725,
-  "internal_eth": 159528
+  "new_stake_eth": 828110,
+  "internal_eth": 166321
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 632820,
-   "share_pct": 61.2,
-   "items": 9901
+   "eth": 596339,
+   "share_pct": 60,
+   "items": 9021
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 100113,
-   "share_pct": 9.7,
-   "items": 77
+   "eth": 98307,
+   "share_pct": 9.9,
+   "items": 76
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 96542,
-   "share_pct": 9.3,
-   "items": 993
+   "eth": 97182,
+   "share_pct": 9.8,
+   "items": 995
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 80000,
-   "share_pct": 7.7,
+   "share_pct": 8,
    "items": 40
   },
   {
    "entity": "Figment",
    "category": "Staking Pool",
    "eth": 47488,
-   "share_pct": 4.6,
+   "share_pct": 4.8,
    "items": 1484
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
-   "eth": 27040,
-   "share_pct": 2.6,
-   "items": 845
+   "eth": 23904,
+   "share_pct": 2.4,
+   "items": 747
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 19505,
-   "share_pct": 1.9,
-   "items": 26
+   "eth": 19545,
+   "share_pct": 2,
+   "items": 27
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 12512,
-   "share_pct": 1.2,
-   "items": 391
+   "eth": 14496,
+   "share_pct": 1.5,
+   "items": 453
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
-   "eth": 5894,
+   "eth": 6022,
    "share_pct": 0.6,
-   "items": 13
+   "items": 17
   },
   {
    "entity": "Kraken",
@@ -86,18 +86,18 @@
    "items": 161
   },
   {
-   "entity": "Revolut",
-   "category": "CEX",
-   "eth": 2528,
-   "share_pct": 0.2,
-   "items": 79
-  },
-  {
    "entity": "Bitbank",
    "category": "CEX",
    "eth": 2380,
    "share_pct": 0.2,
    "items": 3
+  },
+  {
+   "entity": "Revolut",
+   "category": "CEX",
+   "eth": 2336,
+   "share_pct": 0.2,
+   "items": 73
   },
   {
    "entity": "labeled individual",
@@ -123,8 +123,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 1033253,
-  "exit_eth": 8781,
+  "entry_eth": 994430,
+  "exit_eth": 192,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
