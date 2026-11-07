@@ -2002,3 +2002,19 @@ date,side,entity,category,eth,items,share_pct
 2026-11-06,entry,stakefish,Staking Pool,384,12,0
 2026-11-06,entry,109-110.eth,Solo Staker,0,1,0
 2026-11-06,exit,(unmapped),,192,6,100
+2026-11-07,entry,(unmapped),,566401,8346,58.4
+2026-11-07,entry,OKX,CEX,105123,82,10.8
+2026-11-07,entry,Lido,Liquid Staking,95550,933,9.8
+2026-11-07,entry,Binance,CEX,80000,40,8.2
+2026-11-07,entry,Figment,Staking Pool,47488,1484,4.9
+2026-11-07,entry,Coinbase,CEX,23328,729,2.4
+2026-11-07,entry,P2P.org,Staking Pool,19908,30,2.1
+2026-11-07,entry,Upbit,CEX,15360,480,1.6
+2026-11-07,entry,Kiln,Staking Pool,6022,17,0.6
+2026-11-07,entry,Kraken,CEX,5152,161,0.5
+2026-11-07,entry,Bitbank,CEX,2380,3,0.2
+2026-11-07,entry,Revolut,CEX,2304,72,0.2
+2026-11-07,entry,Abyss Finance,Batch Staking Contract,896,28,0.1
+2026-11-07,entry,stakefish,Staking Pool,384,12,0
+2026-11-07,entry,109-110.eth,Solo Staker,0,1,0
+2026-11-07,exit,(unmapped),,192,6,100
