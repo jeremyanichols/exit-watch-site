@@ -2070,3 +2070,26 @@ date,side,entity,category,eth,items,share_pct
 2026-11-10,exit,Swell,Liquid Restaking,256,8,0.3
 2026-11-10,exit,imToken,Staking Pool,96,3,0.1
 2026-11-10,exit,Upbit,CEX,64,2,0.1
+2026-11-11,entry,(unmapped),,492309,8151,53.7
+2026-11-11,entry,Lido,Liquid Staking,117052,587,12.8
+2026-11-11,entry,OKX,CEX,97724,77,10.7
+2026-11-11,entry,Binance,CEX,80000,40,8.7
+2026-11-11,entry,Figment,Staking Pool,47520,1485,5.2
+2026-11-11,entry,P2P.org,Staking Pool,30963,69,3.4
+2026-11-11,entry,Upbit,CEX,19168,599,2.1
+2026-11-11,entry,Coinbase,CEX,14016,438,1.5
+2026-11-11,entry,Kiln,Staking Pool,7762,20,0.8
+2026-11-11,entry,Kraken,CEX,5152,161,0.6
+2026-11-11,entry,Revolut,CEX,2912,91,0.3
+2026-11-11,entry,stakefish,Staking Pool,800,25,0.1
+2026-11-11,entry,Abyss Finance,Batch Staking Contract,704,22,0.1
+2026-11-11,entry,leonlow.eth,Solo Staker,1,1,0
+2026-11-11,entry,109-110.eth,Solo Staker,0,1,0
+2026-11-11,exit,(unmapped),,103134,3197,71.5
+2026-11-11,exit,Binance,CEX,17155,536,11.9
+2026-11-11,exit,Kiln,Staking Pool,11064,289,7.7
+2026-11-11,exit,Lido,Liquid Staking,10913,341,7.6
+2026-11-11,exit,Puffer Finance,Liquid Restaking,1761,55,1.2
+2026-11-11,exit,P2P.org,Staking Pool,123,2,0.1
+2026-11-11,exit,Figment,Staking Pool,32,1,0
+2026-11-11,exit,Revolut,CEX,32,1,0
