@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-11T13:15:13.294Z",
+ "generated_at": "2026-11-12T13:15:03.113Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,36 +11,36 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 687473,
-  "internal_eth": 228609
+  "new_stake_eth": 668587,
+  "internal_eth": 242634
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 492309,
-   "share_pct": 53.7,
-   "items": 8151
+   "eth": 457614,
+   "share_pct": 50.2,
+   "items": 8583
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 117052,
-   "share_pct": 12.8,
-   "items": 587
+   "eth": 126748,
+   "share_pct": 13.9,
+   "items": 601
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 97724,
-   "share_pct": 10.7,
-   "items": 77
+   "eth": 108221,
+   "share_pct": 11.9,
+   "items": 85
   },
   {
    "entity": "Binance",
    "category": "CEX",
    "eth": 80000,
-   "share_pct": 8.7,
+   "share_pct": 8.8,
    "items": 40
   },
   {
@@ -53,16 +53,16 @@
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 30963,
-   "share_pct": 3.4,
-   "items": 69
+   "eth": 38876,
+   "share_pct": 4.3,
+   "items": 99
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 19168,
-   "share_pct": 2.1,
-   "items": 599
+   "eth": 20608,
+   "share_pct": 2.3,
+   "items": 644
   },
   {
    "entity": "Coinbase",
@@ -75,7 +75,7 @@
    "entity": "Kiln",
    "category": "Staking Pool",
    "eth": 7762,
-   "share_pct": 0.8,
+   "share_pct": 0.9,
    "items": 20
   },
   {
@@ -88,9 +88,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 2912,
-   "share_pct": 0.3,
-   "items": 91
+   "eth": 3200,
+   "share_pct": 0.4,
+   "items": 100
   },
   {
    "entity": "stakefish",
@@ -123,8 +123,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 916082,
-  "exit_eth": 144188,
+  "entry_eth": 911221,
+  "exit_eth": 336519,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
