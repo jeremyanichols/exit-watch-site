@@ -2116,3 +2116,29 @@ date,side,entity,category,eth,items,share_pct
 2026-11-12,exit,Bitget,CEX,1600,50,0.5
 2026-11-12,exit,P2P.org,Staking Pool,45,1,0
 2026-11-12,exit,Kraken,CEX,32,1,0
+2026-11-13,entry,(unmapped),,442731,7497,47.7
+2026-11-13,entry,Lido,Liquid Staking,137724,618,14.8
+2026-11-13,entry,OKX,CEX,111149,88,12
+2026-11-13,entry,Binance,CEX,80000,40,8.6
+2026-11-13,entry,P2P.org,Staking Pool,60947,177,6.6
+2026-11-13,entry,Figment,Staking Pool,47776,1493,5.1
+2026-11-13,entry,Upbit,CEX,23040,720,2.5
+2026-11-13,entry,Coinbase,CEX,12384,387,1.3
+2026-11-13,entry,Kiln,Staking Pool,7762,20,0.8
+2026-11-13,entry,Revolut,CEX,3424,107,0.4
+2026-11-13,entry,stakefish,Staking Pool,800,25,0.1
+2026-11-13,entry,Abyss Finance,Batch Staking Contract,704,22,0.1
+2026-11-13,entry,leonlow.eth,Solo Staker,1,1,0
+2026-11-13,entry,109-110.eth,Solo Staker,0,1,0
+2026-11-13,exit,(unmapped),,160051,1874,50.4
+2026-11-13,exit,Lido,Liquid Staking,103060,3220,32.5
+2026-11-13,exit,Blockdaemon,Staking Pool,36548,1142,11.5
+2026-11-13,exit,Bitget,CEX,13701,428,4.3
+2026-11-13,exit,Figment,Staking Pool,2529,79,0.8
+2026-11-13,exit,P2P.org,Staking Pool,1158,2,0.4
+2026-11-13,exit,sonofvitalik.eth,Solo Staker,96,3,0
+2026-11-13,exit,Swell,Liquid Restaking,64,2,0
+2026-11-13,exit,Kiln,Staking Pool,32,1,0
+2026-11-13,exit,Kraken,CEX,32,1,0
+2026-11-13,exit,Revolut,CEX,32,1,0
+2026-11-13,exit,pluch.eth,Solo Staker,32,1,0
