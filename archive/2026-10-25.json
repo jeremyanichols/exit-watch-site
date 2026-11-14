@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-14T13:00:30.704Z",
+ "generated_at": "2026-11-14T13:15:02.828Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,16 +11,16 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 640162,
+  "new_stake_eth": 639694,
   "internal_eth": 248746
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 409665,
+   "eth": 409517,
    "share_pct": 46.1,
-   "items": 6598
+   "items": 6597
   },
   {
    "entity": "Lido",
@@ -47,7 +47,7 @@
    "entity": "P2P.org",
    "category": "Staking Pool",
    "eth": 63549,
-   "share_pct": 7.1,
+   "share_pct": 7.2,
    "items": 188
   },
   {
@@ -60,9 +60,9 @@
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 23872,
+   "eth": 23552,
    "share_pct": 2.7,
-   "items": 746
+   "items": 736
   },
   {
    "entity": "Coinbase",
@@ -123,8 +123,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 888908,
-  "exit_eth": 282139,
+  "entry_eth": 888440,
+  "exit_eth": 283291,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true

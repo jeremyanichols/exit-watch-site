@@ -2142,13 +2142,13 @@ date,side,entity,category,eth,items,share_pct
 2026-11-13,exit,Kraken,CEX,32,1,0
 2026-11-13,exit,Revolut,CEX,32,1,0
 2026-11-13,exit,pluch.eth,Solo Staker,32,1,0
-2026-11-14,entry,(unmapped),,409665,6598,46.1
+2026-11-14,entry,(unmapped),,409517,6597,46.1
 2026-11-14,entry,Lido,Liquid Staking,138428,629,15.6
 2026-11-14,entry,OKX,CEX,100192,82,11.3
 2026-11-14,entry,Binance,CEX,80000,40,9
-2026-11-14,entry,P2P.org,Staking Pool,63549,188,7.1
+2026-11-14,entry,P2P.org,Staking Pool,63549,188,7.2
 2026-11-14,entry,Figment,Staking Pool,47776,1493,5.4
-2026-11-14,entry,Upbit,CEX,23872,746,2.7
+2026-11-14,entry,Upbit,CEX,23552,736,2.7
 2026-11-14,entry,Coinbase,CEX,12384,387,1.4
 2026-11-14,entry,Kiln,Staking Pool,7762,20,0.9
 2026-11-14,entry,Revolut,CEX,3712,116,0.4
@@ -2157,10 +2157,10 @@ date,side,entity,category,eth,items,share_pct
 2026-11-14,entry,Stkr (Ankr),Liquid Staking,64,2,0
 2026-11-14,entry,leonlow.eth,Solo Staker,1,1,0
 2026-11-14,entry,109-110.eth,Solo Staker,0,1,0
-2026-11-14,exit,(unmapped),,121304,1398,43
-2026-11-14,exit,Lido,Liquid Staking,106139,3316,37.6
-2026-11-14,exit,Blockdaemon,Staking Pool,36550,1142,13
-2026-11-14,exit,Bitget,CEX,13696,428,4.9
+2026-11-14,exit,(unmapped),,121304,1398,42.8
+2026-11-14,exit,Lido,Liquid Staking,107292,3352,37.9
+2026-11-14,exit,Blockdaemon,Staking Pool,36550,1142,12.9
+2026-11-14,exit,Bitget,CEX,13696,428,4.8
 2026-11-14,exit,Figment,Staking Pool,2529,79,0.9
 2026-11-14,exit,P2P.org,Staking Pool,1181,3,0.4
 2026-11-14,exit,Upbit,CEX,512,16,0.2
