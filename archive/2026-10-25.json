@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-15T13:15:02.647Z",
+ "generated_at": "2026-11-16T13:15:15.665Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,58 +11,51 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 631929,
-  "internal_eth": 299976
+  "new_stake_eth": 615480,
+  "internal_eth": 302473
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 459059,
-   "share_pct": 49.3,
-   "items": 6594
+   "eth": 499347,
+   "share_pct": 54.4,
+   "items": 7170
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 138812,
-   "share_pct": 14.9,
-   "items": 641
+   "eth": 139356,
+   "share_pct": 15.2,
+   "items": 648
   },
   {
    "entity": "OKX",
    "category": "CEX",
    "eth": 100192,
-   "share_pct": 10.8,
+   "share_pct": 10.9,
    "items": 82
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
    "eth": 71551,
-   "share_pct": 7.7,
+   "share_pct": 7.8,
    "items": 218
-  },
-  {
-   "entity": "Binance",
-   "category": "CEX",
-   "eth": 56000,
-   "share_pct": 6,
-   "items": 28
   },
   {
    "entity": "Figment",
    "category": "Staking Pool",
    "eth": 47776,
-   "share_pct": 5.1,
+   "share_pct": 5.2,
    "items": 1493
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 28384,
-   "share_pct": 3,
-   "items": 887
+   "eth": 29184,
+   "share_pct": 3.2,
+   "items": 912
   },
   {
    "entity": "Coinbase",
@@ -88,9 +81,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 4096,
-   "share_pct": 0.4,
-   "items": 128
+   "eth": 4480,
+   "share_pct": 0.5,
+   "items": 140
   },
   {
    "entity": "stakefish",
@@ -102,9 +95,9 @@
   {
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
-   "eth": 352,
+   "eth": 384,
    "share_pct": 0,
-   "items": 11
+   "items": 12
   },
   {
    "entity": "leonlow.eth",
@@ -123,8 +116,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 931905,
-  "exit_eth": 241529,
+  "entry_eth": 917953,
+  "exit_eth": 204001,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
