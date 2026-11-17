@@ -2237,3 +2237,36 @@ date,side,entity,category,eth,items,share_pct
 2026-11-16,exit,Revolut,CEX,32,1,0
 2026-11-16,exit,stevenhancock.eth,Solo Staker,32,1,0
 2026-11-16,exit,xroque.eth,Solo Staker,32,1,0
+2026-11-17,entry,(unmapped),,487038,7019,54.8
+2026-11-17,entry,Lido,Liquid Staking,139064,627,15.7
+2026-11-17,entry,OKX,CEX,82069,68,9.2
+2026-11-17,entry,P2P.org,Staking Pool,71500,216,8.1
+2026-11-17,entry,Figment,Staking Pool,47776,1493,5.4
+2026-11-17,entry,Upbit,CEX,27168,849,3.1
+2026-11-17,entry,Coinbase,CEX,12672,396,1.4
+2026-11-17,entry,Kiln,Staking Pool,7794,21,0.9
+2026-11-17,entry,Stkr (Ankr),Liquid Staking,7456,233,0.8
+2026-11-17,entry,Revolut,CEX,4320,135,0.5
+2026-11-17,entry,stakefish,Staking Pool,800,25,0.1
+2026-11-17,entry,Abyss Finance,Batch Staking Contract,352,11,0
+2026-11-17,entry,leonlow.eth,Solo Staker,1,1,0
+2026-11-17,entry,109-110.eth,Solo Staker,0,1,0
+2026-11-17,exit,Lido,Liquid Staking,120254,3757,45.4
+2026-11-17,exit,Binance,CEX,80017,2500,30.2
+2026-11-17,exit,(unmapped),,44710,1156,16.9
+2026-11-17,exit,Bitget,CEX,12099,378,4.6
+2026-11-17,exit,Upbit,CEX,1921,60,0.7
+2026-11-17,exit,OKX,CEX,1824,57,0.7
+2026-11-17,exit,Abyss Finance,Batch Staking Contract,1573,4,0.6
+2026-11-17,exit,Figment,Staking Pool,864,27,0.3
+2026-11-17,exit,P2P.org,Staking Pool,557,4,0.2
+2026-11-17,exit,Coinbase,CEX,288,9,0.1
+2026-11-17,exit,stakefish,Staking Pool,224,7,0.1
+2026-11-17,exit,Kiln,Staking Pool,128,4,0
+2026-11-17,exit,sonofvitalik.eth,Solo Staker,96,3,0
+2026-11-17,exit,Swell,Liquid Restaking,64,2,0
+2026-11-17,exit,imToken,Staking Pool,64,2,0
+2026-11-17,exit,bankruptcyattorney.eth,Solo Staker,38,1,0
+2026-11-17,exit,Revolut,CEX,32,1,0
+2026-11-17,exit,stevenhancock.eth,Solo Staker,32,1,0
+2026-11-17,exit,xroque.eth,Solo Staker,32,1,0
