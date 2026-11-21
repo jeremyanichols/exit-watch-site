@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-21T13:01:08.653Z",
+ "generated_at": "2026-11-21T13:15:02.698Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,16 +11,16 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 533332,
+  "new_stake_eth": 533396,
   "internal_eth": 258535
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 487288,
+   "eth": 487320,
    "share_pct": 61.5,
-   "items": 6857
+   "items": 6858
   },
   {
    "entity": "Lido",
@@ -74,9 +74,9 @@
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 5248,
+   "eth": 5280,
    "share_pct": 0.7,
-   "items": 164
+   "items": 165
   },
   {
    "entity": "Figment",
@@ -123,8 +123,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 791867,
-  "exit_eth": 194259,
+  "entry_eth": 791931,
+  "exit_eth": 193073,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
