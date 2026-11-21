@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-20T13:15:03.445Z",
+ "generated_at": "2026-11-21T13:01:08.653Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,58 +11,51 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 555149,
-  "internal_eth": 276937
+  "new_stake_eth": 533332,
+  "internal_eth": 258535
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 505156,
-   "share_pct": 60.7,
-   "items": 7184
+   "eth": 487288,
+   "share_pct": 61.5,
+   "items": 6857
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 106982,
-   "share_pct": 12.9,
-   "items": 425
+   "eth": 94904,
+   "share_pct": 12,
+   "items": 393
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 78821,
-   "share_pct": 9.5,
-   "items": 66
+   "eth": 79618,
+   "share_pct": 10.1,
+   "items": 67
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 76709,
-   "share_pct": 9.2,
-   "items": 268
+   "eth": 67874,
+   "share_pct": 8.6,
+   "items": 260
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 27968,
-   "share_pct": 3.4,
-   "items": 874
+   "eth": 28960,
+   "share_pct": 3.7,
+   "items": 905
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
-   "eth": 11072,
-   "share_pct": 1.3,
-   "items": 346
-  },
-  {
-   "entity": "Kiln",
-   "category": "Staking Pool",
-   "eth": 9099,
-   "share_pct": 1.1,
-   "items": 26
+   "eth": 9824,
+   "share_pct": 1.2,
+   "items": 307
   },
   {
    "entity": "Stkr (Ankr)",
@@ -72,11 +65,18 @@
    "items": 251
   },
   {
+   "entity": "Kiln",
+   "category": "Staking Pool",
+   "eth": 7344,
+   "share_pct": 0.9,
+   "items": 23
+  },
+  {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 5216,
-   "share_pct": 0.6,
-   "items": 163
+   "eth": 5248,
+   "share_pct": 0.7,
+   "items": 164
   },
   {
    "entity": "Figment",
@@ -102,9 +102,9 @@
   {
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
-   "eth": 512,
-   "share_pct": 0.1,
-   "items": 16
+   "eth": 256,
+   "share_pct": 0,
+   "items": 8
   },
   {
    "entity": "leonlow.eth",
@@ -123,8 +123,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 832086,
-  "exit_eth": 243565,
+  "entry_eth": 791867,
+  "exit_eth": 194259,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
