@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-23T13:15:03.211Z",
+ "generated_at": "2026-11-24T13:15:02.876Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,72 +11,72 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 499222,
-  "internal_eth": 229332
+  "new_stake_eth": 487074,
+  "internal_eth": 208512
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 473939,
-   "share_pct": 65.1,
-   "items": 6861
-  },
-  {
-   "entity": "Lido",
-   "category": "Liquid Staking",
-   "eth": 79944,
-   "share_pct": 11,
-   "items": 333
+   "eth": 461710,
+   "share_pct": 66.4,
+   "items": 6809
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 69340,
-   "share_pct": 9.5,
+   "eth": 71040,
+   "share_pct": 10.2,
    "items": 264
+  },
+  {
+   "entity": "Lido",
+   "category": "Liquid Staking",
+   "eth": 66168,
+   "share_pct": 9.5,
+   "items": 321
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 57412,
-   "share_pct": 7.9,
-   "items": 51
+   "eth": 49994,
+   "share_pct": 7.2,
+   "items": 45
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 27616,
+   "eth": 26240,
    "share_pct": 3.8,
-   "items": 863
+   "items": 820
   },
   {
    "entity": "Stkr (Ankr)",
    "category": "Liquid Staking",
    "eth": 8032,
-   "share_pct": 1.1,
+   "share_pct": 1.2,
    "items": 251
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 5632,
+   "eth": 5792,
    "share_pct": 0.8,
-   "items": 176
+   "items": 181
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
-   "eth": 3768,
+   "eth": 3803,
    "share_pct": 0.5,
-   "items": 14
+   "items": 13
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
-   "eth": 1216,
+   "eth": 1184,
    "share_pct": 0.2,
-   "items": 38
+   "items": 37
   },
   {
    "entity": "RockX",
@@ -102,9 +102,9 @@
   {
    "entity": "labeled individual",
    "category": "Batch Staking Contract",
-   "eth": 256,
+   "eth": 224,
    "share_pct": 0,
-   "items": 8
+   "items": 7
   },
   {
    "entity": "leonlow.eth",
@@ -112,19 +112,12 @@
    "eth": 1,
    "share_pct": 0,
    "items": 1
-  },
-  {
-   "entity": "109-110.eth",
-   "category": "Solo Staker",
-   "eth": 0,
-   "share_pct": 0,
-   "items": 1
   }
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 728554,
-  "exit_eth": 109321,
+  "entry_eth": 695586,
+  "exit_eth": 82944,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true

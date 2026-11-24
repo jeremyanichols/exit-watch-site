@@ -2431,3 +2431,29 @@ date,side,entity,category,eth,items,share_pct
 2026-11-23,exit,Abyss Finance,Batch Staking Contract,64,2,0.1
 2026-11-23,exit,Figment,Staking Pool,64,2,0.1
 2026-11-23,exit,Upbit,CEX,64,2,0.1
+2026-11-24,entry,(unmapped),,461710,6809,66.4
+2026-11-24,entry,P2P.org,Staking Pool,71040,264,10.2
+2026-11-24,entry,Lido,Liquid Staking,66168,321,9.5
+2026-11-24,entry,OKX,CEX,49994,45,7.2
+2026-11-24,entry,Upbit,CEX,26240,820,3.8
+2026-11-24,entry,Stkr (Ankr),Liquid Staking,8032,251,1.2
+2026-11-24,entry,Revolut,CEX,5792,181,0.8
+2026-11-24,entry,Kiln,Staking Pool,3803,13,0.5
+2026-11-24,entry,Coinbase,CEX,1184,37,0.2
+2026-11-24,entry,RockX,Staking Pool,598,2,0.1
+2026-11-24,entry,stakefish,Staking Pool,416,13,0.1
+2026-11-24,entry,Figment,Staking Pool,384,12,0.1
+2026-11-24,entry,Abyss Finance,Batch Staking Contract,224,7,0
+2026-11-24,entry,leonlow.eth,Solo Staker,1,1,0
+2026-11-24,exit,(unmapped),,42365,1053,51.1
+2026-11-24,exit,Everstake,Staking Pool,19271,602,23.2
+2026-11-24,exit,Lido,Liquid Staking,12483,390,15
+2026-11-24,exit,OKX,CEX,4321,135,5.2
+2026-11-24,exit,Kiln,Staking Pool,1238,1,1.5
+2026-11-24,exit,Figment,Staking Pool,992,31,1.2
+2026-11-24,exit,Kraken,CEX,896,28,1.1
+2026-11-24,exit,stakefish,Staking Pool,800,25,1
+2026-11-24,exit,Coinbase,CEX,416,13,0.5
+2026-11-24,exit,P2P.org,Staking Pool,65,2,0.1
+2026-11-24,exit,Abyss Finance,Batch Staking Contract,64,2,0.1
+2026-11-24,exit,Upbit,CEX,64,2,0.1
