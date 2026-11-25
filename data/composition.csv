@@ -2457,3 +2457,27 @@ date,side,entity,category,eth,items,share_pct
 2026-11-24,exit,P2P.org,Staking Pool,65,2,0.1
 2026-11-24,exit,Abyss Finance,Batch Staking Contract,64,2,0.1
 2026-11-24,exit,Upbit,CEX,64,2,0.1
+2026-11-25,entry,(unmapped),,485784,6841,68.9
+2026-11-25,entry,P2P.org,Staking Pool,71388,260,10.1
+2026-11-25,entry,Lido,Liquid Staking,63256,297,9
+2026-11-25,entry,OKX,CEX,41160,37,5.8
+2026-11-25,entry,Upbit,CEX,24544,767,3.5
+2026-11-25,entry,Stkr (Ankr),Liquid Staking,8032,251,1.1
+2026-11-25,entry,Revolut,CEX,5728,179,0.8
+2026-11-25,entry,Kiln,Staking Pool,2063,10,0.3
+2026-11-25,entry,Coinbase,CEX,1120,35,0.2
+2026-11-25,entry,RockX,Staking Pool,598,2,0.1
+2026-11-25,entry,stakefish,Staking Pool,416,13,0.1
+2026-11-25,entry,Figment,Staking Pool,384,12,0.1
+2026-11-25,entry,Abyss Finance,Batch Staking Contract,224,7,0
+2026-11-25,entry,anomar.eth,Solo Staker,0,1,0
+2026-11-25,exit,(unmapped),,53147,699,53.5
+2026-11-25,exit,Binance,CEX,32009,1000,32.2
+2026-11-25,exit,Lido,Liquid Staking,6753,211,6.8
+2026-11-25,exit,OKX,CEX,3201,100,3.2
+2026-11-25,exit,Abyss Finance,Batch Staking Contract,1696,53,1.7
+2026-11-25,exit,Figment,Staking Pool,1056,33,1.1
+2026-11-25,exit,Kraken,CEX,960,30,1
+2026-11-25,exit,Swell,Liquid Restaking,352,11,0.4
+2026-11-25,exit,P2P.org,Staking Pool,65,2,0.1
+2026-11-25,exit,Kiln,Staking Pool,32,1,0

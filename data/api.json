@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-24T13:15:02.876Z",
+ "generated_at": "2026-11-25T13:15:02.631Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,72 +11,72 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 487074,
-  "internal_eth": 208512
+  "new_stake_eth": 522521,
+  "internal_eth": 182176
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 461710,
-   "share_pct": 66.4,
-   "items": 6809
+   "eth": 485784,
+   "share_pct": 68.9,
+   "items": 6841
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 71040,
-   "share_pct": 10.2,
-   "items": 264
+   "eth": 71388,
+   "share_pct": 10.1,
+   "items": 260
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 66168,
-   "share_pct": 9.5,
-   "items": 321
+   "eth": 63256,
+   "share_pct": 9,
+   "items": 297
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 49994,
-   "share_pct": 7.2,
-   "items": 45
+   "eth": 41160,
+   "share_pct": 5.8,
+   "items": 37
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 26240,
-   "share_pct": 3.8,
-   "items": 820
+   "eth": 24544,
+   "share_pct": 3.5,
+   "items": 767
   },
   {
    "entity": "Stkr (Ankr)",
    "category": "Liquid Staking",
    "eth": 8032,
-   "share_pct": 1.2,
+   "share_pct": 1.1,
    "items": 251
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 5792,
+   "eth": 5728,
    "share_pct": 0.8,
-   "items": 181
+   "items": 179
   },
   {
    "entity": "Kiln",
    "category": "Staking Pool",
-   "eth": 3803,
-   "share_pct": 0.5,
-   "items": 13
+   "eth": 2063,
+   "share_pct": 0.3,
+   "items": 10
   },
   {
    "entity": "Coinbase",
    "category": "CEX",
-   "eth": 1184,
+   "eth": 1120,
    "share_pct": 0.2,
-   "items": 37
+   "items": 35
   },
   {
    "entity": "RockX",
@@ -107,17 +107,17 @@
    "items": 7
   },
   {
-   "entity": "leonlow.eth",
+   "entity": "anomar.eth",
    "category": "Solo Staker",
-   "eth": 1,
+   "eth": 0,
    "share_pct": 0,
    "items": 1
   }
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 695586,
-  "exit_eth": 82944,
+  "entry_eth": 704697,
+  "exit_eth": 99231,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
