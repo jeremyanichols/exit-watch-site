@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-25T13:15:02.631Z",
+ "generated_at": "2026-11-26T13:15:02.487Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,58 +11,58 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 522521,
-  "internal_eth": 182176
+  "new_stake_eth": 524952,
+  "internal_eth": 158784
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 485784,
-   "share_pct": 68.9,
-   "items": 6841
+   "eth": 465391,
+   "share_pct": 68.1,
+   "items": 6702
   },
   {
    "entity": "P2P.org",
    "category": "Staking Pool",
-   "eth": 71388,
-   "share_pct": 10.1,
-   "items": 260
+   "eth": 85626,
+   "share_pct": 12.5,
+   "items": 282
   },
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 63256,
-   "share_pct": 9,
-   "items": 297
+   "eth": 59094,
+   "share_pct": 8.6,
+   "items": 260
   },
   {
    "entity": "OKX",
    "category": "CEX",
-   "eth": 41160,
-   "share_pct": 5.8,
-   "items": 37
+   "eth": 31285,
+   "share_pct": 4.6,
+   "items": 30
   },
   {
    "entity": "Upbit",
    "category": "CEX",
-   "eth": 24544,
-   "share_pct": 3.5,
-   "items": 767
+   "eth": 24288,
+   "share_pct": 3.6,
+   "items": 759
   },
   {
    "entity": "Stkr (Ankr)",
    "category": "Liquid Staking",
    "eth": 8032,
-   "share_pct": 1.1,
+   "share_pct": 1.2,
    "items": 251
   },
   {
    "entity": "Revolut",
    "category": "CEX",
-   "eth": 5728,
+   "eth": 5696,
    "share_pct": 0.8,
-   "items": 179
+   "items": 178
   },
   {
    "entity": "Kiln",
@@ -74,9 +74,9 @@
   {
    "entity": "Coinbase",
    "category": "CEX",
-   "eth": 1120,
+   "eth": 1184,
    "share_pct": 0.2,
-   "items": 35
+   "items": 37
   },
   {
    "entity": "RockX",
@@ -86,18 +86,11 @@
    "items": 2
   },
   {
-   "entity": "stakefish",
-   "category": "Staking Pool",
-   "eth": 416,
-   "share_pct": 0.1,
-   "items": 13
-  },
-  {
    "entity": "Figment",
    "category": "Staking Pool",
-   "eth": 384,
-   "share_pct": 0.1,
-   "items": 12
+   "eth": 256,
+   "share_pct": 0,
+   "items": 8
   },
   {
    "entity": "labeled individual",
@@ -116,8 +109,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 704697,
-  "exit_eth": 99231,
+  "entry_eth": 683737,
+  "exit_eth": 67042,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
