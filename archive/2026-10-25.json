@@ -1,6 +1,6 @@
 {
  "date": "2026-10-25",
- "generated_at": "2026-11-28T13:00:26.503Z",
+ "generated_at": "2026-11-28T13:15:02.402Z",
  "queues": {
   "exit_eth": 364665,
   "exit_wait_days": 6.33,
@@ -11,16 +11,16 @@
   "apr": 2.55
  },
  "flows": {
-  "new_stake_eth": 508428,
-  "internal_eth": 123296
+  "new_stake_eth": 508492,
+  "internal_eth": 123424
  },
  "entry_composition": [
   {
    "entity": "(unmapped)",
    "category": null,
-   "eth": 443940,
+   "eth": 444004,
    "share_pct": 70.3,
-   "items": 6627
+   "items": 6629
   },
   {
    "entity": "P2P.org",
@@ -39,9 +39,9 @@
   {
    "entity": "Lido",
    "category": "Liquid Staking",
-   "eth": 26200,
-   "share_pct": 4.1,
-   "items": 110
+   "eth": 26328,
+   "share_pct": 4.2,
+   "items": 111
   },
   {
    "entity": "Upbit",
@@ -116,8 +116,8 @@
  ],
  "crosscheck": {
   "source": "beacon:publicnode",
-  "entry_eth": 631724,
-  "exit_eth": 47536,
+  "entry_eth": 631916,
+  "exit_eth": 47440,
   "vq_entry_eth": 1309352,
   "vq_exit_eth": 364665,
   "flagged": true
